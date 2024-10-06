@@ -59,7 +59,6 @@
 - Network of JSON-Files referencing other JSON-files (linked to each other)
 - Consists of core component specifications wich are semi-independent: can be used alone but work best in concert with one another
 
-<img width="800" alt="archive_infra" src="https://github.com/user-attachments/assets/8aede27e-2b22-44ca-82f9-fd60fbed61e1">
 
 **STAC Item**
 
@@ -80,7 +79,7 @@ A STAC Catalog can link various STAC Items together. A catalog contains a list o
 
 **STAC Collection**
 
-Within a collection of geospatial data there can be common additional information regarding to these kinds of data. A STAC Collection includes additional fields for this additional information. As a standalone it is a lightweight way to describe data holdings.
+Within a collection of geospatial data there can be common additional information regarding to these kinds of data. It consists of assets with the same properties on a higher level. A STAC Collection includes additional fields for this additional information. As a standalone it is a lightweight way to describe data holdings.
 
 <img width="600" alt="collections" src="https://github.com/user-attachments/assets/764d7d8a-3f83-4372-9946-f330b0f9eb88">
 
@@ -88,6 +87,8 @@ Within a collection of geospatial data there can be common additional informatio
 **(STAC API)**
 
 A STAC API is a service interface for search and differs from the other specifications because it is not only a JSON file but more a dynamic system with various parts. It has access over a group of STAC objects, which are usually held in a database.
+
+<img width="800" alt="archive_infra" src="https://github.com/user-attachments/assets/8aede27e-2b22-44ca-82f9-fd60fbed61e1">
 
 
 ## STAC Extensions
@@ -118,43 +119,36 @@ A STAC API is a service interface for search and differs from the other specific
 
 ### eo: Electro-Optical Extension
 
-- 
+The eo Extension refers to EO data which are snapshots of the earth for a single date and time. This extension is specified on the electro-optical field so it contains information e.g. about the platform, the physical conditions and bands.
 
-- **Examples:**
-    - eo:cloud_cover -> Estimate, percentage
-    - eo:center_wavelength -> of the band, micrometers
-    - eo:solar_illumination -> of the band, as measured at half the maximum transmission, W/m2/micrometers
+**Examples:**
+- eo:cloud_cover -> Estimate, percentage
+- eo:center_wavelength -> of the band, micrometers
+- eo:solar_illumination -> of the band, as measured at half the maximum transmission, W/m2/micrometers
+- [More examples](https://github.com/radiantearth/stac-spec/tree/v0.8.1/extensions/eo#item-fields)
+
 <details>
-<summary>Code extract of a STAC-Item with eo-extension:</summary>
+<summary>Code extract of a Landsat 8 Item from the collection "landsat-8-11" with eo-extension:</summary>
     
       "properties": {
-        "datetime": "2020-12-11T22:38:32.125Z",
-        "created": "2020-12-12T01:48:13.725Z",
-        "updated": "2020-12-12T01:48:13.725Z",
-        "platform": "cool_sat2",
-        "instruments": [
-          "cool_sensor_v1"
-        ],
-        "gsd": 0.66,
-        "eo:cloud_cover": 1.2,
-        "eo:snow_cover": 0
-      },
-      "assets": {
-        "analytic": {
-          "href": "https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2_analytic.tif",
-          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-          "title": "4-Band Analytic",
-          "roles": [
-            "data"
-          ],
-          "eo:cloud_cover": 1.2,
-          "bands": [
+        "collection": "landsat-8-l1",
+        "datetime": "2018-10-01T01:08:32.033Z",
+        "eo:cloud_cover": 78,
+        "eo:sun_azimuth": 168.8989761,
+        "eo:sun_elevation": 26.32596431,
+        "landsat:path": 107,
+        "landsat:row": 18,
+        "eo:gsd": 30,
+        "eo:platform": "landsat-8",
+        "eo:instrument": "oli_tirs",
+        "eo:off_nadir": 0,
+        "eo:bands": [
             {
-              "name": "band1",
-              "eo:common_name": "blue",
-              "eo:center_wavelength": 0.47,
-              "eo:full_width_half_max": 0.07,
-              "eo:solar_illumination": 1959.66
+                "name": "B1",
+                "common_name": "coastal",
+                "gsd": 30,
+                "center_wavelength": 0.44,
+                "full_width_half_max": 0.02
             },
 </details>
 
@@ -163,10 +157,11 @@ A STAC API is a service interface for search and differs from the other specific
 
 The mlm-extension provides fields to describe ML models, their training details and inference runtime requirements. This extension is mostly combined with other extensions. 
 
-- **Examples:**
-    - mlm:name -> 
-    - mlm:memory_size -> 
-    - mlm:input -> 
+**Examples:**
+- mlm:name -> name of the model
+- mlm:tasks -> tasks for which the model can be used for
+- mlm:input -> transformation between EO data and model input
+- [More examples](https://github.com/stac-extensions/mlm?tab=readme-ov-file#item-properties-and-collection-fields)
 
 <details>
 <summary>Code extract of a STAC-Item with mlm-extension:</summary>
@@ -200,9 +195,8 @@ The mlm-extension provides fields to describe ML models, their training details 
               ],
               "data_type": "float32"
             }
-   
-    
 </details>
+
 
 ## Conclusion
 - Advantages:
@@ -213,9 +207,11 @@ The mlm-extension provides fields to describe ML models, their training details 
 - Difficulties/Discussion:
     - Much work to make all data STAC compliant -> how to get the community bigger, how far can it grow with voluntary work and the OS base?
     - Spatiotemporal data is only one special type of data -> how to expand to more disciplines? Is it even compatible?
+    - Limited by available libraries and tools -> how to generalize or automatize to get faster steps forward more availabilities?
 
 
 STAC is an enrichment to make spatiotemporal data interoperable, searchable and queryable. It enables better access to data and is constantly growing. The open source background and the simplicity make the use of the standards accessible to all and thus ensures that providers, developers and users can make use of the possibilities and develop them further. 
+
 
 ## Sources
 - stacspec
@@ -223,7 +219,7 @@ STAC is an enrichment to make spatiotemporal data interoperable, searchable and 
     - https://stacspec.org/en/about/
     - https://stacspec.org/en/about/stac-spec/
     - https://stacspec.org/en/tutorials/intro-to-stac/
-- Github
+- GitHub
     - https://stac-extensions.github.io/
     - https://github.com/radiantearth/stac-spec/
     - https://github.com/radiantearth/stac-api-spec/
@@ -236,6 +232,9 @@ STAC is an enrichment to make spatiotemporal data interoperable, searchable and 
     - https://github.com/stac-extensions/mlm/blob/main/examples/item_eo_bands.json
 - Others
     - https://gogeomatics.ca/spatiotemporal-asset-catalogs-enabling-online-search-and-discovery-of-geospatial-assets/
+    - https://learn.microsoft.com/de-de/azure/orbital/organize-stac-data
+    - https://developers.satellogic.com/archive-service/introduction.html
+    - https://www.earthdata.nasa.gov/esdis/esco/standards-and-practices/stac
 
 [^1]: https://stacspec.org/en/
 [^2]: https://github.com/radiantearth/stac-spec/

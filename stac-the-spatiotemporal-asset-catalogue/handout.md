@@ -1,60 +1,76 @@
 @Juliarotert
 
+<img width="100" alt="Logo" src="https://github.com/user-attachments/assets/5664ee5f-bb0c-4947-894d-fd96f22d1edd">
+
 # **STAC: the SpatioTemporal Asset Catalog**
 
 ## Introduction 
 > **"The STAC Specification is a common language to describe geospatial information, so it can more easily be worked with, indexed, and discovered."** [^1]
-- STAC: Concept/ Standard
-- STAC Specification: technical document/ Descriptions
-- short description in own words:
+- Short description in own words: ...
+
+- STAC: concept/ standard
+- STAC Specification: technical document/ descriptions
+
 - SpatioTemporal Asset
     - "any file that represents information about the Earth captured in a certain place and at a particular time" [^2]
 - Catalog
     - "a complete, usually alphabetical list of items, often with notes giving details" [^3]
+
 - Origin: scenes of satellite imagery
-- Presence: variety of uses
+- Presence: variety of (spatiotemporal) uses, e.g. Point Clouds or Data Cubes
 
 ## Overview
-
-- The STAC Specification: "provides a common structure for describing and cataloging spatiotemporal assets"
+- Concept and implementation of common metadata for spatiotemporal assets
+- Useful for Data providers, Developers and Data users
 - Components/ Core Specifications:
-    - STAC Item
-    - STAC Catalog
-    - STAC Collection
-    - STAC API
-- Components are semi-independent: can be used alone but work better together
+    - STAC Item - core atomic unit
+    - STAC Catalog - JSON file of links 
+    - STAC Collection - extension with additional information
+    - STAC API - endpoint for search
 
-
-### What
+### What is STAC?
 - Collection of Specifications and Software
 - Describes spatial and/or temporal data
 - Common structure for describing and cataloging spatiotemporal assets
 - "aim to standardize the way geospatial asset metadata is structured and queried"
 
-### Why
+### Why is STAC relevant?
 - "The goal is for all providers of spatiotemporal assets (Imagery, SAR, Point Clouds, Data Cubes, Full Motion Video, etc) to expose their data as SpatioTemporal Asset Catalogs (STAC), so that new code doesn't need to be written whenever a new data set or API is released"
 - "To establish a standard, unified language to talk about geospatial data, allowing it to be more easily searchable and queryable"
-- Data is often provided similar but not as much the same as they can be found in one search
+- Data is often provided similar but not as much the same as they can be found by users in one search
 - STAC solves this Problem by providing common metadata for spatiotemporal Data
 - The easy implementable but customizable and flexible standard makes STAC attractive for providers, developers and users
 
-### How
+### How does the STAC Specification work?
+
+<img width="1222" alt="archive_infra" src="https://github.com/user-attachments/assets/8aede27e-2b22-44ca-82f9-fd60fbed61e1">
+
 - Network of JSON-Files referencing other JSON-files (linked with each other)
 
 - detailed description of core-specifications
-    - Item:
-    - Catalog:
-    - Collection:
- 
+
+- Components are semi-independent: can be used alone but work better together
+**STAC Item**
+![STAC-Item](https://github.com/user-attachments/assets/34514af4-8488-4bb0-9167-c7eee5553ca4)
+
+**STAC Catalog**
+![Catalog-layout](https://github.com/user-attachments/assets/a2a7ced6-e637-4d3d-8374-e6dc3e8e3d97)
+
+**STAC Collection**
+![STAC-Collection](https://github.com/user-attachments/assets/764d7d8a-3f83-4372-9946-f330b0f9eb88)
+
+**STAC API**
+
 - Links:
-- API:
+
 
 ## STAC Extensions
-- for adding specific metadata
-- many extensions are hosted in GitHub
-- json-schema includes descriptions, properties and definitions (for parts) of the extension such as types, items
+- For adding specific metadata
+- Many extensions are hosted in GitHub
+- General json-schema includes properties and definitions for (objects of the) extensions such as types or items
+
 <details>
-<summary>Code extract of the json-schema eo-extension</summary>
+<summary>Code extract of the json-schema eo-extension defining the object "eo:cloud_cover":</summary>
     
                 "properties": {
                   "summaries": {

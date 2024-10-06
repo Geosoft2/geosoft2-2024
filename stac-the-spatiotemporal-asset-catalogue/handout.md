@@ -1,25 +1,29 @@
 @Juliarotert
 
-# **STAC: the spatiotemporal asset catalogue**
+# **STAC: the SpatioTemporal Asset Catalog**
 
 ## Introduction 
-- short description
+> **"The STAC Specification is a common language to describe geospatial information, so it can more easily be worked with, indexed, and discovered."** [^1]
+- STAC: Concept/ Standard
+- STAC Specification: technical document/ Descriptions
+- short description in own words:
 - SpatioTemporal Asset
-    - "any file that represents information about the Earth captured in a certain place and at a particular time" [^1]
-- catalogue
-    - "a complete, usually alphabetical list of items, often with notes giving details" [^2]
+    - "any file that represents information about the Earth captured in a certain place and at a particular time" [^2]
+- Catalog
+    - "a complete, usually alphabetical list of items, often with notes giving details" [^3]
 - Origin: scenes of satellite imagery
 - Presence: variety of uses
 
 ## Overview
 
-- The STAC Specification
-- Components/ Core Specifications
-    - Item
-    - Catalog
-    - Collection
-- Components can be used alone but best together
-- API Specification
+- The STAC Specification: "provides a common structure for describing and cataloging spatiotemporal assets"
+- Components/ Core Specifications:
+    - STAC Item
+    - STAC Catalog
+    - STAC Collection
+    - STAC API
+- Components are semi-independent: can be used alone but work better together
+
 
 ### What
 - Collection of Specifications and Software
@@ -27,18 +31,23 @@
 - Common structure for describing and cataloging spatiotemporal assets
 - "aim to standardize the way geospatial asset metadata is structured and queried"
 
-### why
+### Why
 - "The goal is for all providers of spatiotemporal assets (Imagery, SAR, Point Clouds, Data Cubes, Full Motion Video, etc) to expose their data as SpatioTemporal Asset Catalogs (STAC), so that new code doesn't need to be written whenever a new data set or API is released"
 - "To establish a standard, unified language to talk about geospatial data, allowing it to be more easily searchable and queryable"
+- Data is often provided similar but not as much the same as they can be found in one search
+- STAC solves this Problem by providing common metadata for spatiotemporal Data
+- The easy implementable but customizable and flexible standard makes STAC attractive for providers, developers and users
 
-### how
-- Network of JSON-Files referencing other JSON-files (kind of linked)
-- Links:
-- API:
+### How
+- Network of JSON-Files referencing other JSON-files (linked with each other)
+
 - detailed description of core-specifications
     - Item:
     - Catalog:
     - Collection:
+ 
+- Links:
+- API:
 
 ## STAC Extensions
 - for adding specific metadata
@@ -173,9 +182,13 @@
     - https://github.com/radiantearth/stac-spec/tree/v0.8.1/extensions/eo
     - https://github.com/stac-extensions/mlm
     - https://github.com/stac-extensions/mlm/blob/main/examples/item_eo_bands.json
+- Others
+    - https://gogeomatics.ca/spatiotemporal-asset-catalogs-enabling-online-search-and-discovery-of-geospatial-assets/
+    - 
 
-[^1]: https://github.com/radiantearth/stac-spec/
-[^2]: https://www.collinsdictionary.com/de/worterbuch/englisch/catalogue
+[^1]: https://stacspec.org/en/
+[^2]: https://github.com/radiantearth/stac-spec/
+[^3]: https://www.collinsdictionary.com/de/worterbuch/englisch/catalogue
 
 
 

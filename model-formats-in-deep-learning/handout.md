@@ -39,7 +39,7 @@
 1. **TensorFlow** – Google Brain
 2. **PyTorch** – Facebook AI Research Lab
 3. **Keras**
-4. **CNTK** – Microsoft Cognitive Toolkit (Abstieg durch TensorFlow und PyTorch)
+4. **CNTK** – Microsoft Cognitive Toolkit
 
 ## Datei Formate
 

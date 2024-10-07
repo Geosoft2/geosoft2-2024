@@ -95,6 +95,9 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
   
 
 ## Quellen
+IBM Data and AI Team (2023, 6. Juli). *AI vs. machine learning vs. deep learning vs. neural networks. What’s the difference?*. IBM. https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks.
+
 Madhavan, S. & Jones, M. T. (2024, 24. April). *Deep learning architectures. The rise of artificial intelligence.* IBM Developer. https://developer.ibm.com/articles/cc-machine-learning-deep-learning-architectures.
 
-IBM Data and AI Team (2023, 6. Juli). *AI vs. machine learning vs. deep learning vs. neural networks. What’s the difference?*. IBM. https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks.
+Nyuytiymbiy, K. (2020, 30. Dezember). *Parameters and Hyperparameters in Machine Learning and Deep Learning.
+What exactly are they and how do they interact?*. Towards Data Science. https://towardsdatascience.com/parameters-and-hyperparameters-aa609601a9ac

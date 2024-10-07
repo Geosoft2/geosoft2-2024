@@ -37,7 +37,7 @@
 ## Verbreitete Frameworks für Deep Learning
 
 1. **TensorFlow** – Google Brain
-2. **PyTorch** – Facebook AI Research Lab
+2. **PyTorch** – Linux Foundation
 3. **Keras**
 4. **CNTK** – Microsoft Cognitive Toolkit
 

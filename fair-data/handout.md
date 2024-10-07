@@ -6,34 +6,22 @@
 > — *Kurt Bollacker*
 
 ## Einleitung
-Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden entwickelt, um den Umgang mit wissenschaftlichen Daten zu verbessern und deren Nutzung in der Forschung zu erleichtern. In einer Zeit, in der Datenmengen und -komplexität stetig wachsen, sind sie von entscheidender Bedeutung.
+Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden 2016 entwickelt, um den Umgang mit wissenschaftlichen Daten zu verbessern und deren Nutzung in der Forschung zu erleichtern. In einer Zeit, in der Datenmengen und -komplexität stetig wachsen, sind sie von entscheidender Bedeutung.
 
 ## Die F.A.I.R.-Prinzipien
 ![F.A.I.R. Data](https://github.com/amlusc/geosoft2-2024/raw/main/fair-data/FAIRDATA.jpg)
 
-### Findable (Auffindbar)
-- Daten und Metadaten sollten für Menschen und Maschinen leicht auffindbar sein.
-- Verwendung von einzigartigen und beständigen Identifikatoren.
-- Registrierung und Indexierung in durchsuchbaren Ressourcen.
+| Prinzip       | Beschreibung |
+|---------------|--------------|
+| **Findable (Auffindbar)**  | **F1.** (Meta-)Daten werden mit einer weltweit eindeutigen und dauerhaften Kennung versehen <br>**F2.** Daten werden mit umfangreichen Metadaten beschrieben (definiert durch R1 unten)<br>**F3.** Metadaten enthalten eindeutig und explizit den Identifikator der Daten, die sie beschreiben <br>**F4.** (Meta-)Daten sind in einer durchsuchbaren Ressource registriert oder indexiert.|
+| **Accessible (Zugänglich)**| **A1.** (Meta-)Daten sind anhand ihrer Kennung über ein standardisiertes Kommunikationsprotokoll abrufbar <br>**A1.1** das Protokoll ist offen, frei und universell implementierbar <br>**A1.2** das Protokoll ermöglicht ein Authentifizierungs- und Autorisierungsverfahren, falls erforderlich <br>**A2.** die Metadaten sind zugänglich, auch wenn die Daten nicht mehr verfügbar sind|
+| **Interoperable (Interoperabel)** | **I1.** (Meta-)Daten verwenden eine formale, zugängliche, gemeinsame und breit anwendbare Sprache zur Wissensdarstellung. <br>**I2.** (Meta-)Daten verwenden Vokabulare, die den FAIR-Grundsätzen folgen <br>**I3.** (Meta-)daten enthalten qualifizierte Verweise auf andere (Meta-)daten|
+| **Reusable (Wiederverwendbar)**  | **R1.** (Meta-)daten sind mit einer Vielzahl von genauen und relevanten Attributen reichhaltig beschrieben <br>**R1.1.** (Meta-)Daten werden mit einer klaren und zugänglichen Datennutzungslizenz freigegeben <br>**R1.2.** (Meta-)Daten sind mit einer detaillierten Provenienz verbunden <br>**R1.3.** (Meta-)daten entsprechen den für den Bereich relevanten Gemeinschaftsstandards|
 
-### Accessible (Zugänglich)
-- Daten sollten über standardisierte Protokolle zugänglich sein.
-- Unterstützung von Authentifizierungs- und Autorisierungsverfahren, falls notwendig.
-- Metadaten sollten zugänglich bleiben, auch wenn die Daten nicht mehr verfügbar sind.
+### Unterschied zwischen Open Data und F.A.I.R. Data
 
-#### Unterschied zwischen Open Data und F.A.I.R. Data
-- **Open Data** kann von jedem, überall und für jede Art von Nutzung frei verwendet, weitergegeben und weiterentwickelt werden.
-- **F.A.I.R.-Prinzipien** bieten bewährte Praktiken für das Teilen von Daten unter Berücksichtigung ethischer, rechtlicher oder vertraglicher Beschränkungen. Bei Daten, die persönliche Informationen oder Urheberrechte enthalten, müssen die entsprechenden Vorschriften eingehalten werden. Selbst wenn die Daten nicht offen geteilt werden können, sollte eine Beschreibung veröffentlicht werden, um interessierten Forschenden die Anforderung einer Nutzungserlaubnis zu ermöglichen.
-
-### Interoperable (Interoperabel)
-- Nutzung formaler, allgemein zugänglicher Sprachen zur Wissensrepräsentation.
-- Verwendung standardisierter Vokabulare.
-- Metadaten sollten Verweise auf andere relevante Daten enthalten.
-
-### Reusable (Wiederverwendbar)
-- Daten und Metadaten sollten klar beschrieben sein und eine Wiederverwendung ermöglichen.
-- Nutzungsbedingungen und Provenienzinformationen müssen angegeben werden.
-- Einhaltung fachspezifischer Standards.
+- Open Data kann von jedem, überall und für jede Art von Nutzung frei verwendet, weitergegeben und weiterentwickelt werden.
+- F.A.I.R.-Prinzipien bieten bewährte Praktiken für das Teilen von Daten unter Berücksichtigung ethischer, rechtlicher oder vertraglicher Beschränkungen. Bei Daten, die persönliche Informationen oder Urheberrechte enthalten, müssen die entsprechenden Vorschriften eingehalten werden. Selbst wenn die Daten nicht offen geteilt werden können, sollte eine Beschreibung veröffentlicht werden, um interessierten Forschenden die Anforderung einer Nutzungserlaubnis zu ermöglichen.
 
 ## Warum sollte man die Daten F.A.I.R. machen?
 - Sicherung von Integrität und Reproduzierbarkeit in der Forschung.
@@ -57,7 +45,7 @@ Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden e
 - **Compliance**: Viele Förderorganisationen und wissenschaftliche Zeitschriften verlangen die Einhaltung der F.A.I.R.-Prinzipien.
 
 ## Wie macht man Daten F.A.I.R.?
-Das Drei-Punkte-Rahmenwerk formuliert die wesentlichen Schritte auf dem Weg zu einem globalen Internet aus F.A.I.R.-Daten und -Diensten. Hierdurch sollen Daten für Maschinen auffindbar, zugänglich, interoperabel und wiederverwendbar gemacht werden.
+Das **Drei-Punkte-Rahmenwerk** formuliert die wesentlichen Schritte auf dem Weg zu einem globalen Internet aus F.A.I.R.-Daten und -Diensten. Hierdurch sollen Daten für Maschinen auffindbar, zugänglich, interoperabel und wiederverwendbar gemacht werden.
 
 ### Das Drei-Punkte FAIRification Framework
 Dieses Framework bietet Stakeholdern praktische Anleitungen, wie sie F.A.I.R. werden können. Durch das Befolgen dieser Struktur wird sichergestellt, dass die Bemühungen zur FAIRification mit denen anderer Stakeholder innerhalb der GO FAIR-Community abgestimmt sind. Das Framework maximiert die Wiederverwendung vorhandener Ressourcen, erhöht die Interoperabilität und fördert die schnelle Annäherung an Standards und Technologien für F.A.I.R.-Daten und -Dienste.
@@ -85,25 +73,15 @@ Die F.A.I.R.-Prinzipien gelten für Metadaten, Daten und unterstützende Infrast
 6. **Metadaten definieren**: Metadaten unterstützen alle Aspekte von F.A.I.R. und sollten umfassend und aussagekräftig sein.
 7. **F.A.I.R.-Ressource bereitstellen**: Die F.A.I.R.-Datenressource (einschließlich Metadaten und Lizenz) wird bereitgestellt, damit die Metadaten durch Suchmaschinen indexiert und die Daten abgerufen werden können.
 
-## Anwendung der F.A.I.R.-Prinzipien auf DL-Modelle für EO-Daten
+### Anwendung der F.A.I.R.-Prinzipien auf DL-Modelle für EO-Daten
 
-Um die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) auf Deep-Learning-Modelle (DL-Modelle) für Erdbeobachtungsdaten (EO-Daten) anzuwenden, sind die folgenden Schritte hilfreich:
+| Schritt                        | Ziel                                                             | Vorgehen                                                                                                                                                  |
+|--------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Modellierung und Benchmarking** | Vergleichbarkeit und Reproduzierbarkeit sicherstellen          | Nutzung von Benchmark-Plattformen wie **AiTLAS: Benchmark Arena**, um DL-Modelle und Ergebnisse öffentlich zugänglich zu machen und eine Vergleichsbasis zu schaffen. |
+| **2. Metadaten und Interoperabilität** | Interoperabilität der Modelle gewährleisten                   | Implementierung eines **FAIR Implementation Profiles**, das standardisierte Metadaten und relevante Metadatenschemata festlegt, um Modellparameter und Datensätze zu dokumentieren. |
+| **3. Wiederverwendbarkeit und Dokumentation** | Effektive Wiederverwendung ermöglichen                         | Bereitstellung detaillierter Dokumentation zu den Modellen, einschließlich Angaben zu Trainingsmethoden, Datensätzen und Evaluationsmetriken, um Nachvollziehbarkeit zu sichern. |
+| **4. Veröffentlichung und Zugriff** | Modelle und Daten in durchsuchbaren Repositorien bereitstellen | Nutzung von Frameworks wie **AiTLAS**, um DL-Modelle mit standardisierten Lizenzinformationen zu veröffentlichen und die Wiederverwendbarkeit zu fördern.                          |
 
-### 1. Modellierung und Benchmarking
-- **Ziel**: Vergleichbarkeit und Reproduzierbarkeit der Ergebnisse sicherstellen.
-- **Vorgehen**: Nutzung von Benchmark-Plattformen wie **AiTLAS: Benchmark Arena**, um DL-Modelle und Ergebnisse öffentlich zugänglich zu machen und eine standardisierte Vergleichsbasis zu schaffen.
-
-### 2. Metadaten und Interoperabilität
-- **Ziel**: Interoperabilität der Modelle durch standardisierte Metadaten gewährleisten.
-- **Vorgehen**: Implementierung eines **FAIR Implementation Profiles**, das standardisierte Metadaten und relevante Metadatenschemata festlegt, um Modellparameter und Datensätze systematisch zu dokumentieren.
-
-### 3. Wiederverwendbarkeit und Dokumentation
-- **Ziel**: Effektive Wiederverwendung der Modelle durch andere Forschende ermöglichen.
-- **Vorgehen**: Bereitstellung detaillierter Dokumentation zu den Modellen, einschließlich Angaben zu Trainingsmethoden, Datensätzen und Evaluationsmetriken, um die Nachvollziehbarkeit zu sichern.
-
-### 4. Veröffentlichung und Zugriff
-- **Ziel**: Modelle und Daten in durchsuchbaren Repositorien bereitstellen.
-- **Vorgehen**: Nutzung von Frameworks wie **AiTLAS**, um DL-Modelle mit standardisierten Lizenzinformationen zu veröffentlichen und den Zugriff sowie die Wiederverwendbarkeit zu fördern.
 
 Diese Schritte bieten eine strukturierte Herangehensweise, um DL-Modelle für EO-Daten auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen.
 

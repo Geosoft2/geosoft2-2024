@@ -96,3 +96,5 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 
 ## Quellen
 Madhavan, S. & Jones, M. T. (2024, 24. April). *Deep learning architectures. The rise of artificial intelligence.* IBM Developer. https://developer.ibm.com/articles/cc-machine-learning-deep-learning-architectures.
+
+IBM Data and AI Team (2023, 6. Juli). *AI vs. machine learning vs. deep learning vs. neural networks. What’s the difference?*. IBM. https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks.

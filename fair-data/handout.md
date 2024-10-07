@@ -17,7 +17,7 @@ Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden e
 - Unterstützung von Authentifizierungs- und Autorisierungsverfahren, falls notwendig.
 - Metadaten sollten zugänglich bleiben, auch wenn die Daten nicht mehr verfügbar sind.
 
-### Unterschied zwischen Open Data und F.A.I.R. Data
+#### Unterschied zwischen Open Data und F.A.I.R. Data
 - **Open Data** kann von jedem, überall und für jede Art von Nutzung frei verwendet, weitergegeben und weiterentwickelt werden.
 - **F.A.I.R.-Prinzipien** bieten bewährte Praktiken für das Teilen von Daten unter Berücksichtigung ethischer, rechtlicher oder vertraglicher Beschränkungen. Bei Daten, die persönliche Informationen oder Urheberrechte enthalten, müssen die entsprechenden Vorschriften eingehalten werden. Selbst wenn die Daten nicht offen geteilt werden können, sollte eine Beschreibung veröffentlicht werden, um interessierten Forschenden die Anforderung einer Nutzungserlaubnis zu ermöglichen.
 

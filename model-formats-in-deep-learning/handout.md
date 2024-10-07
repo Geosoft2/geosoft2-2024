@@ -90,7 +90,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 - **Verwendung**: In PyTorch.
 - **Effizienz**: Besonders effizient für PyTorch durch Speicherung als Tensor.
 - **Speichert**:
-  - Speichert Modellarchitektur
+  - Modellarchitektur
   - Gewichte/Bias
   
 

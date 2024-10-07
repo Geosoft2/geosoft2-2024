@@ -37,7 +37,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 
 ## Speicherung von Deep Learning Modellen
 
-- **Frameworks**: Unterschiedliche Machine Learning Frameworks verwenden verschiedene Datenformate zur Speicherung.
+- **Unterschiedliche Machine Learning Frameworks verwenden verschiedene Datenformate zur Speicherung.**
 - **Ansätze**:
   - Einige speichern nur die Modellarchitektur und die gelernten Parameter.
   - Andere speichern zusätzlich die Trainingsdaten.

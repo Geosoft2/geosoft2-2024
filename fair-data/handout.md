@@ -24,6 +24,11 @@ werden, falls notwendig.
 - Metadaten bleiben zugänglich, selbst wenn die Daten nicht mehr verfügbar 
 sind.
 
+- Unterschied zwischen Open Data und F.A.I.R Data:
+- Open Data kann von jedem, überall und für jede Art von Nutzung frei verwendet, weitergegeben und weiterentwickelt werden.
+- Die F.A.I.R.-Prinzipien bieten bewährte Praktiken für das Teilen von Daten unter Beachtung ethischer, rechtlicher oder vertraglicher Beschränkungen.
+- Falls die Daten persönliche Informationen, Urheberrechte oder geistige Eigentumsrechte enthalten, müssen die entsprechenden Vorschriften eingehalten und unbefugten Zugriff verhindert werden. Selbst wenn die Daten nicht offen geteilt werden können, sollte eine Beschreibung veröffentlicht sein, damit interessierte Forschende eine Erlaubnis zur Nutzung anfragen können.
+
 ### Interoperable (Interoperabel)
 - Nutzung von formalen, allgemein zugänglichen Sprachen für die 
 Wissensrepräsentation.
@@ -69,3 +74,6 @@ Daten und Modellen optimieren. Die Implementierung dieser Prinzipien kann
 zur effizienteren und kollaborativen Nutzung wissenschaftlicher Ressourcen 
 beitragen.
 
+## Quellen
+https://www.go-fair.org/fair-principles/
+https://youtu.be/5OeCrQE3HhE?si=LC3114uYoc94_M8-

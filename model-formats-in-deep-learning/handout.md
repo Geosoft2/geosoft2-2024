@@ -36,10 +36,10 @@
 
 ## Verbreitete Frameworks für Deep Learning
 
-1. **TensorFlow** – Google Brain
-2. **PyTorch** – Linux Foundation
-3. **Keras**
-4. **CNTK** – Microsoft Cognitive Toolkit
+1. [**TensorFlow**](https://www.tensorflow.org/) – Google Brain
+2. [**PyTorch**](https://pytorch.org/) – Linux Foundation
+3. [**Keras**](https://github.com/keras-team/keras)
+4. [**CNTK**](https://github.com/microsoft/CNTK) – Microsoft Cognitive Toolkit
 
 ## Datei Formate
 

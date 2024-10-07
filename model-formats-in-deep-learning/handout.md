@@ -19,9 +19,9 @@
 
 - **Eingabedaten**: Daten, die ins Modell eingespeist werden.
 - **Architektur**: Struktur des neuronalen Netzes.
-- **Neuronen**: Grundbausteine eines neuronalen Netzes.
-- **Schichten**: Anordnung der Neuronen im Netzwerk.
-- **Aktivierungsfunktionen**: Bestimmen, ob ein Neuron aktiviert wird.
+  - Neuronen: Grundbausteine eines neuronalen Netzes.
+  - Schichten: Anordnung der Neuronen im Netzwerk.
+  - Aktivierungsfunktionen: Bestimmen, ob ein Neuron aktiviert wird.
 - **Verlustfunktionen**: Messen, wie sehr der berechnete Wert vom tatsächlichen Wert abweicht.
 - **Optimierungsalgorithmus**: Passt Gewichte und Bias an, um die Leistung des Modells zu verbessern.
 - **Gewichte und Bias**: Parametrische Werte, die Eingaben gewichten und die Aktivierungsfunktion verschieben.

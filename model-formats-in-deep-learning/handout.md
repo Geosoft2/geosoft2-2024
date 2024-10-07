@@ -60,9 +60,8 @@
 - **Effizienz**: Optimal für sehr große Datenmengen.
 - **Verwendung**: Von TensorFlow.
 
-### ONNX
-- **Vollständiger Name**: Open Neural Network Exchange
-- **Zweck**: Austausch von DL-Modellen zwischen verschiedenen Frameworks.
+### ONNX (Open Neural Network Exchange)
+- **Funktion**: Austausch von DL-Modellen zwischen verschiedenen Frameworks.
 - **Speichert**:
   - Modellarchitektur
   - Gewichte/Bias

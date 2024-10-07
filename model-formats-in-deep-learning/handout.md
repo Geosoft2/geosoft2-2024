@@ -23,9 +23,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 - **Datenformate**:
   - Die gespeicherten Datenformate sind in beiden Fällen ähnlich.
 
-## Was ist ein Deep Learning Modell?
-
-### Komponenten
+## Komponenten eines Deep Learning Modells
 
 - **Eingabedaten**: Daten, die ins Modell eingespeist werden.
 - **Architektur**: Struktur des neuronalen Netzes.

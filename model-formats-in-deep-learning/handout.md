@@ -12,6 +12,14 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
   - **Machine Learning**: Geringere Laufzeit bei einfacher Hardware.
   - **Deep Learning**: Benötigt leistungsstarke Hardware und hat längere Rechenzeiten.
 
+- **Menschlicher Einfluss**:
+  - **Machine Learning**:
+    - Braucht eine klare Problemdefinition
+    - Merkmalsextraktion muss manuell erfolgen
+    - Auswahl geeigneter Algorithmen
+  - **Deep Learning**:
+    - Benötigt Input des Menschen bei dem Aufbau der Netzarchitektur und Hyperparametern
+
 - **Datenformate**:
   - Die gespeicherten Datenformate sind in beiden Fällen ähnlich.
 
@@ -84,3 +92,4 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 - **Funktion**: Speichert Modellarchitektur, Gewichte/Bias als Tensor.
 - **Effizienz**: Besonders effizient für PyTorch.
 
+## Quellen

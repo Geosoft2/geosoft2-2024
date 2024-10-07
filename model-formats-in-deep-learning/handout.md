@@ -1,5 +1,7 @@
 # Handout: Modell Formate im Deep Learning
 
+Autoren: @nicevibesplus, @awiechma
+
 ## Unterschiede zwischen Machine Learning und Deep Learning
 
 - **Datenmengen**:

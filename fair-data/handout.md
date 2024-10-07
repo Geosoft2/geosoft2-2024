@@ -79,20 +79,23 @@ Die F.A.I.R.-Prinzipien gelten für Metadaten, Daten und unterstützende Infrast
 
 <table>
   <tr>
-    <td style="vertical-align: top; width: 70%;">
-      1. **Nicht-FAIR-Daten abrufen**: Zugang zu den zu FAIRifizierenden Daten erhalten.<br>
-      2. **Analyse der Daten**: Untersuchung der Inhalte und Struktur der Daten: Welche Konzepte sind enthalten? Wie sind die Daten strukturiert? Unterschiedliche Datenstrukturen erfordern verschiedene Analysemethoden.<br>
-      3. **Semantisches Modell definieren**: Ein semantisches Modell für das Dataset festlegen, das die Bedeutung der enthaltenen Entitäten und Relationen beschreibt. Es ist hilfreich, vorhandene Modelle und Vokabulare zu recherchieren und zu verwenden.<br>
-      4. **Daten verlinkbar machen**: Anwendung des semantischen Modells, um die Daten verlinkbar zu gestalten und so die Interoperabilität und Wiederverwendbarkeit zu fördern. Dies geschieht oft mithilfe von Semantic Web- und Linked Data-Technologien.<br>
-      5. **Lizenz zuweisen**: Lizenzinformationen sind Teil der Metadaten, jedoch wird die Lizenzzuweisung als eigenständiger Schritt betrachtet, da das Fehlen einer expliziten Lizenz die Wiederverwendung verhindern kann.<br>
-      6. **Metadaten definieren**: Metadaten unterstützen alle Aspekte von F.A.I.R. und sollten umfassend und aussagekräftig sein.<br>
-      7. **F.A.I.R.-Ressource bereitstellen**: Die F.A.I.R.-Datenressource (einschließlich Metadaten und Lizenz) wird bereitgestellt, damit die Metadaten durch Suchmaschinen indexiert und die Daten abgerufen werden können.
+    <td style="vertical-align: top;">
+      <p>
+        1. **Nicht-FAIR-Daten abrufen**: Zugang zu den zu FAIRifizierenden Daten erhalten.<br>
+        2. **Analyse der Daten**: Untersuchung der Inhalte und Struktur der Daten: Welche Konzepte sind enthalten? Wie sind die Daten strukturiert? Unterschiedliche Datenstrukturen erfordern verschiedene Analysemethoden.<br>
+        3. **Semantisches Modell definieren**: Ein semantisches Modell für das Dataset festlegen, das die Bedeutung der enthaltenen Entitäten und Relationen beschreibt. Es ist hilfreich, vorhandene Modelle und Vokabulare zu recherchieren und zu verwenden.<br>
+        4. **Daten verlinkbar machen**: Anwendung des semantischen Modells, um die Daten verlinkbar zu gestalten und so die Interoperabilität und Wiederverwendbarkeit zu fördern. Dies geschieht oft mithilfe von Semantic Web- und Linked Data-Technologien.<br>
+        5. **Lizenz zuweisen**: Lizenzinformationen sind Teil der Metadaten, jedoch wird die Lizenzzuweisung als eigenständiger Schritt betrachtet, da das Fehlen einer expliziten Lizenz die Wiederverwendung verhindern kann.<br>
+        6. **Metadaten definieren**: Metadaten unterstützen alle Aspekte von F.A.I.R. und sollten umfassend und aussagekräftig sein.<br>
+        7. **F.A.I.R.-Ressource bereitstellen**: Die F.A.I.R.-Datenressource (einschließlich Metadaten und Lizenz) wird bereitgestellt, damit die Metadaten durch Suchmaschinen indexiert und die Daten abgerufen werden können.
+      </p>
     </td>
-    <td style="vertical-align: top; width: 30%;">
-      <img src="https://github.com/amlusc/geosoft2-2024/raw/main/fair-data/FAIRIFICATION.png" alt="FAIRification Prozess" width="200"/>
+    <td style="vertical-align: top; width: 200px;">
+      <img src="https://github.com/amlusc/geosoft2-2024/raw/main/fair-data/FAIRIFICATION.png" alt="FAIRification Prozess" style="height: 100%;">
     </td>
   </tr>
 </table>
+
 
 
 ## Anwendung der F.A.I.R.-Prinzipien auf DL-Modelle für EO-Daten

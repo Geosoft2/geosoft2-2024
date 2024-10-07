@@ -18,7 +18,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
     - Merkmalsextraktion muss manuell erfolgen
     - Auswahl geeigneter Algorithmen
   - **Deep Learning**:
-    - Benötigt Input des Menschen bei dem Aufbau der Netzarchitektur und Hyperparametern
+    - Benötigt Input des Menschen bei dem Aufbau der Netzarchitektur und Anpassung der Hyperparameter
 
 - **Datenformate**:
   - Die gespeicherten Datenformate sind in beiden Fällen ähnlich.
@@ -35,6 +35,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 - **Verlustfunktionen**: Messen, wie sehr der berechnete Wert vom tatsächlichen Wert abweicht.
 - **Optimierungsalgorithmus**: Passt Gewichte und Bias an, um die Leistung des Modells zu verbessern.
 - **Gewichte und Bias**: Parametrische Werte, die Eingaben gewichten und die Aktivierungsfunktion verschieben.
+- **Hyperparameter**: Parametrische Werte, die zB. Anzahl der Schichten und Neuronen definieren.
 
 ## Speicherung von Deep Learning Modellen
 

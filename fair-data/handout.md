@@ -2,11 +2,16 @@
 
 # F.A.I.R. Data
 
+> “Data that is loved tends to survive.”  
+> — *Kurt Bollacker*
+
 ## Einleitung
 Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden entwickelt, um den Umgang mit wissenschaftlichen Daten zu verbessern und deren Nutzung in der Forschung zu erleichtern. In einer Zeit, in der Datenmengen und -komplexität stetig wachsen, sind sie von entscheidender Bedeutung.
 
 ## Die F.A.I.R.-Prinzipien
-[Übersicht über die F.A.I.R.-Prinzipien](https://github.com/amlusc/geosoft2-2024/blob/main/FAIRDATA.pdf)
+<p align="left">
+  <img src="https://github.com/amlusc/geosoft2-2024/raw/main/fair-data/FAIRDATA.jpg" alt="Übersicht über die F.A.I.R.-Prinzipien" width="300" style="float: left; margin-right: 15px;"/>
+</p>
 
 ### Findable (Auffindbar)
 - Daten und Metadaten sollten für Menschen und Maschinen leicht auffindbar sein.
@@ -106,6 +111,7 @@ Diese Schritte bieten eine strukturierte Herangehensweise, um DL-Modelle für EO
 Die F.A.I.R.-Prinzipien sind ein wesentlicher Bestandteil des wissenschaftlichen Fortschritts, da sie die Nutzung und den Austausch von Daten und Modellen optimieren. Die Implementierung dieser Prinzipien kann zur effizienteren und kollaborativen Nutzung wissenschaftlicher Ressourcen beitragen.
 
 ## Quellen
+- [Zitat Bollacker](https://www.americanscientist.org/article/beautiful-data)
 - [F.A.I.R. Prinzipien](https://www.go-fair.org/fair-principles/)
 - [How to go F.A.I.R.](https://www.go-fair.org/how-to-go-fair/)
 - [FAIRification Process](https://www.go-fair.org/fair-principles/fairification-process/)

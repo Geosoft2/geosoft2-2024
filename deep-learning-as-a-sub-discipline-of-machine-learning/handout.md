@@ -1,7 +1,8 @@
-@nilswey
-@JuliZ3
-
 # Deep Learning as a sub  discipline of Machine Learning
+
+## Inhaltsverzeichnis
+
+
 
 
 ## Gemeinsamkeiten und Unterschiede von Machine Learning und Deep Learning

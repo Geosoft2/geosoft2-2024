@@ -95,3 +95,4 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
   
 
 ## Quellen
+Madhavan, S. & Jones, M. T. (2024, 24. April). *Deep learning architectures. The rise of artificial intelligence.* IBM Developer. https://developer.ibm.com/articles/cc-machine-learning-deep-learning-architectures.

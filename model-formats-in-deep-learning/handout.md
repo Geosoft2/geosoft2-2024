@@ -55,7 +55,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 ## Datei Formate
 
 ### HDF5
-- **Typ**: Legacy Format
+- **Typ**: [Legacy Format](https://computersciencewiki.org/index.php/Legacy_system)
 - **Verwendung**: In TensorFlow und Keras.
 - **Funktion**: Speicherung von sehr großen Datenmengen.
 - **Speichert**:

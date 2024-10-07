@@ -2,10 +2,25 @@
 
 # F.A.I.R. Data
 
+## Inhaltsverzeichnis
+
+1. [Einleitung](#einleitung)
+2. [Die F.A.I.R.-Prinzipien](#die-fair-prinzipien)
+3. [Unterschied zwischen Open Data und F.A.I.R. Data](#unterschied-zwischen-open-data-und-fair-data)
+4. [Warum sollte man die Daten F.A.I.R. machen?](#warum-sollte-man-die-daten-fair-machen)
+5. [Bedeutung der F.A.I.R.-Prinzipien allgemein](#bedeutung-der-fair-prinzipien-allgemein)
+6. [Bedeutung der F.A.I.R.-Prinzipien in der Wissenschaft](#bedeutung-der-fair-prinzipien-in-der-wissenschaft)
+7. [Wie macht man Daten F.A.I.R.?](#wie-macht-man-daten-fair)
+8. [FAIRification-Prozess](#fairification-prozess)
+9. [Anwendung der F.A.I.R.-Prinzipien auf DL-Modelle für EO-Daten](#anwendung-der-fair-prinzipien-auf-dl-modelle-für-eo-daten)
+10. [Schlussfolgerung](#schlussfolgerung)
+11. [Quellen](#quellen)
+
+
+## Einleitung
 > “Data that is loved tends to survive.”  
 > — *Kurt Bollacker*
 
-## Einleitung
 Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden 2016 entwickelt, um den Umgang mit wissenschaftlichen Daten zu verbessern und deren Nutzung in der Forschung zu erleichtern. In einer Zeit, in der Datenmengen und -komplexität stetig wachsen, sind sie von entscheidender Bedeutung.
 
 ## Die F.A.I.R.-Prinzipien

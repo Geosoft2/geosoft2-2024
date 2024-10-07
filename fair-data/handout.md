@@ -79,6 +79,7 @@ Die F.A.I.R.-Prinzipien gelten für Metadaten, Daten und unterstützende Infrast
 <p align="right">
   <img src="https://github.com/amlusc/geosoft2-2024/raw/main/fair-data/FAIRIFICATION.png" alt="FAIRification Prozess" width="300" style="margin-left: 15px;"/>
 </p>
+
 1. **Nicht-FAIR-Daten abrufen**: Zugang zu den zu FAIRifizierenden Daten erhalten.
 2. **Analyse der Daten**: Untersuchung der Inhalte und Struktur der Daten: Welche Konzepte sind enthalten? Wie sind die Daten strukturiert? Unterschiedliche Datenstrukturen erfordern verschiedene Analysemethoden.
 3. **Semantisches Modell definieren**: Ein semantisches Modell für das Dataset festlegen, das die Bedeutung der enthaltenen Entitäten und Relationen beschreibt. Es ist hilfreich, vorhandene Modelle und Vokabulare zu recherchieren und zu verwenden.

@@ -1,4 +1,4 @@
-# Handout: Unterschiede zwischen Machine Learning und Deep Learning
+# Handout: Modell Formate im Deep Learning
 
 ## Unterschiede zwischen Machine Learning und Deep Learning
 

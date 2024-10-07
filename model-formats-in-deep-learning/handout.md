@@ -53,7 +53,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 ## Datei Formate
 
 ### HDF5
-- **Typ**: [Legacy Format](https://computersciencewiki.org/index.php/Legacy_system)
+- **[Legacy Format](https://computersciencewiki.org/index.php/Legacy_system)**
 - **Verwendung**: In TensorFlow und Keras.
 - **Funktion**: Speicherung von sehr großen Datenmengen.
 - **Speichert**:
@@ -65,7 +65,7 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
   - Metadaten (z.B. Keras Version)
 
 ### TFRecord
-- **Typ**: Speichert Trainingsdaten
+- **Funktion**: Speichert Trainingsdaten
 - **Effizienz**: Optimal für sehr große Datenmengen.
 - **Verwendung**: Von TensorFlow.
 
@@ -78,8 +78,8 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
   - Metadaten
 
 ### PKL (Pickle)
-- **Verwendung**: In PyTorch.
 - **Funktion**: Speichert Python-Objekte.
+- **Verwendung**: In PyTorch.
 - **Speichert**:
   - Modellarchitektur
   - Gewichte/Bias
@@ -88,7 +88,10 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 
 ### PT (PyTorch Tensors)
 - **Verwendung**: In PyTorch.
-- **Funktion**: Speichert Modellarchitektur, Gewichte/Bias als Tensor.
 - **Effizienz**: Besonders effizient für PyTorch.
+- **Speichert**:
+  - Speichert Modellarchitektur
+  - Gewichte/Bias
+  als Tensor.
 
 ## Quellen

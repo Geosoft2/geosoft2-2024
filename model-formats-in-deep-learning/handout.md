@@ -88,10 +88,10 @@ Autoren: [nicevibesplus](https://github.com/nicevibesplus), [awiechma](https://g
 
 ### PT (PyTorch Tensors)
 - **Verwendung**: In PyTorch.
-- **Effizienz**: Besonders effizient für PyTorch.
+- **Effizienz**: Besonders effizient für PyTorch durch Speicherung als Tensor.
 - **Speichert**:
   - Speichert Modellarchitektur
   - Gewichte/Bias
-  als Tensor.
+  
 
 ## Quellen

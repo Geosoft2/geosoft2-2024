@@ -57,9 +57,9 @@
 
 - Brings the metadata in a standardized structure to make it queryable and searchable
 - Network of JSON-Files referencing other JSON-files (linked to each other)
-- Consists of core component specifications wich are semi-independent: can be used alone but work best in concert with one another
+- Consists of four core component specifications wich are semi-independent: can be used alone but work best in concert with one another
 
-
+### Core components
 **STAC Item**
 
 The Item is the fundamental and core atomic unit of STAC. Being a GeoJSON feature it can be read by GIS or geospatial librarys. It can describe one or more spatiotemporal asset(s) like all bands (assets) of one imagery scene in one item. An item has fields which consist of the existing GeoJSON fields such as id, type, geometry, bbox and properties and additional STAC Item fields which are partially optional. These Fields are e.g. the stac_version, links, assets, stac_extensions or collections. 

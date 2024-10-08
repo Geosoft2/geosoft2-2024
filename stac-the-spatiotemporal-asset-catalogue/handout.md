@@ -71,7 +71,7 @@ A list of item fields can be found in the [GitHub item-specification](https://gi
 <details>
 <summary>Json-schema:</summary>
 
-**Code-extract of the item specification [4]:**
+**Code extract of the item specification [^4]:**
 
         {
           "$schema": "http://json-schema.org/draft-07/schema#",
@@ -121,7 +121,7 @@ A list of item fields can be found in the [GitHub item-specification](https://gi
                       }
                     },
 
-**Code-extract of an item [5]:**
+**Code extract of an item [^5]:**
 
             {
           "stac_version": "1.1.0",
@@ -179,13 +179,13 @@ A list of item fields can be found in the [GitHub item-specification](https://gi
 
 **STAC Catalog**
 
-A STAC Catalog can link various STAC Items together. A catalog contains a list of STAC Items and of child STAC Catalogs. A catalog can be linked with items, collections and other catalogs. 
+A STAC Catalog can link various STAC items together. A catalog contains a list of STAC Items and of child STAC Catalogs. A catalog can be linked with items, collections and other catalogs. 
 A list of item fields can be found in the [GitHub catalog-specification](https://github.com/radiantearth/stac-api-spec/blob/release/v1.0.0/stac-spec/catalog-spec/catalog-spec.md#catalog-fields).
 
 <details>
 <summary>Json-schema:</summary>
 
-**The catalog specification [5]:**
+**The catalog specification [^6]:**
 
     {
       "$schema": "http://json-schema.org/draft-07/schema#",
@@ -246,7 +246,7 @@ A list of item fields can be found in the [GitHub catalog-specification](https:/
     }
 
 
-**Code-extract from a catalog [6]:**
+**Code extract from a catalog [^7]:**
 
         {
       "id": "examples",
@@ -274,7 +274,7 @@ A list of item fields can be found in the [GitHub collection-specification](http
 <details>
 <summary>Json-schema:</summary>
 
- **Code-extract of the collection specification [7]:**
+ **Code extract of the collection specification [^8]:**
 
          {
           "$schema": "http://json-schema.org/draft-07/schema#",
@@ -344,7 +344,7 @@ A list of item fields can be found in the [GitHub collection-specification](http
                         "bbox"
                       ],
 
- **Code-extract from a collection [8]:**
+ **Code extract from a collection [^9]:**
 
         {
           "id": "simple-collection",
@@ -400,7 +400,7 @@ A list of item fields can be found in the [GitHub collection-specification](http
 
 **(STAC API)**
 
-A STAC API is a service interface for search which differs from the other specifications because it is not only a JSON file but more a dynamic system with various parts. It has access to a group of STAC objects, which are usually stored in a database.
+A STAC API is a service interface for search which differs from the other specifications because it is not only a JSON file but more a dynamic system with various parts. It has access to a group of STAC objects, which are usually stored in a database. An API processes requests and delivers results.
 
 <img width="800" alt="archive_infra" src="https://github.com/user-attachments/assets/8aede27e-2b22-44ca-82f9-fd60fbed61e1">
 
@@ -408,10 +408,10 @@ A STAC API is a service interface for search which differs from the other specif
 ## STAC Extensions
 - To add specific metadata in different use cases or more detail about specific data types
 - Many extensions are hosted on GitHub
-- Basic JSON-schema includes properties and definitions for (objects of the) extensions such as types or items
+- Basic JSON schema includes properties and definitions for (objects of the) extensions such as types or items
 
 <details>
-<summary>Code extract of the json-schema for the eo-extension defining the object "eo:cloud_cover":</summary>
+<summary>Code extract of the JSON schema for the eo extension defining the object "eo:cloud_cover":</summary>
     
                 "properties": {
                   "summaries": {
@@ -442,7 +442,7 @@ The eo Extension refers to EO data which are snapshots of the earth for a single
 - [More examples](https://github.com/radiantearth/stac-spec/tree/v0.8.1/extensions/eo#item-fields)
 
 <details>
-<summary>Code extract of a Landsat 8 item from the collection "landsat-8-11" with eo-extension [10]:</summary>
+<summary>Code extract of a Landsat 8 item from the collection "landsat-8-11" with eo-extension [^10]:</summary>
     
       "properties": {
         "collection": "landsat-8-l1",
@@ -469,7 +469,7 @@ The eo Extension refers to EO data which are snapshots of the earth for a single
 
 ### mlm: Machine Learning Model Extension
 
-The mlm-extension provides fields to describe ML models, their training details and inference runtime requirements. This extension is mostly combined with other extensions. 
+The mlm extension provides fields to describe ML models, their training details and inference runtime requirements. This extension is mostly combined with other extensions, e.g. eo. 
 
 **Examples:**
 - mlm:name -> name of the model
@@ -478,7 +478,7 @@ The mlm-extension provides fields to describe ML models, their training details 
 - [More examples](https://github.com/stac-extensions/mlm?tab=readme-ov-file#item-properties-and-collection-fields)
 
 <details>
-<summary>Code extract of a STAC-Item with mlm-extension [11]:</summary>
+<summary>Code extract of a STAC-Item with mlm extension [^11]:</summary>
     
         properties": {
         "description": "Basic STAC Item with only the MLM extension and no other extension cross-references.",

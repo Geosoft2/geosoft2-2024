@@ -1,4 +1,4 @@
-@amlusc
+[@amlusc](https://github.com/amlusc)
 
 # F.A.I.R. Data
 

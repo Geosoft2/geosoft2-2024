@@ -64,6 +64,9 @@ Das **Drei-Punkte-Framework** formuliert die wesentlichen Schritte auf dem Weg z
 Dieses Framework bietet Stakeholdern praktische Anleitungen, wie sie F.A.I.R. werden können. Das Framework maximiert die Wiederverwendung vorhandener Ressourcen, erhöht die Interoperabilität und fördert die schnelle Annäherung an Standards und Technologien für F.A.I.R.-Daten und -Dienste.
 
 #### Die drei Schritte des Frameworks:
+
+![Quelle: GO FAIR](https://github.com/amlusc/geosoft2-2024/raw/main/fair-data/3P-FRAMEWORK.png)
+
 1. **Metadata for Machines (M4M) Workshops**: Diese Workshops unterstützen dabei, domänenspezifische Metadatenanforderungen und Richtlinien in maschinenlesbare Metadaten zu überführen.
 2. **FAIR Implementation Profile (FIP)**: Das FIP dient als Leitfaden für die Auswahl und Konfiguration der F.A.I.R.-Infrastruktur, wie z. B. FAIR Data Points (FDP) und FAIR Digital Objects (FDO), die Teil eines globalen Internets für F.A.I.R.-Daten und -Dienste sind.
 3. **FAIR Data Points**: Sie unterstützen den Aufbau und die Verteilung von F.A.I.R.-Daten und -Diensten weltweit.
@@ -106,6 +109,7 @@ Die F.A.I.R.-Prinzipien sind ein wesentlicher Bestandteil des wissenschaftlichen
 - [Zitat Bollacker](https://www.americanscientist.org/article/beautiful-data)
 - [F.A.I.R. Prinzipien](https://www.go-fair.org/fair-principles/)
 - [How to go F.A.I.R.](https://www.go-fair.org/how-to-go-fair/)
+- [Grafik zum Three-Point-Framework](https://www.go-fair.org/2020/07/08/a-three-point-framework-for-fairification/)
 - [FAIRification Process](https://www.go-fair.org/fair-principles/fairification-process/)
 - [YouTube: How to be F.A.I.R. with your Data](https://youtu.be/5OeCrQE3HhE?si=LC3114uYoc94_M8-)
 - Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016). The FAIR guiding principles for scientific data management and stewardship. *Scientific Data*, *3*, 160018. https://doi.org/10.1038/sdata.2016.18

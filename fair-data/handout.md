@@ -33,7 +33,22 @@ Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden 2
 | **Interoperable (Interoperabel)** | **I1.** (Meta-)Daten verwenden eine formale, zugängliche, gemeinsame und breit anwendbare Sprache zur Wissensdarstellung <br>**I2.** (Meta-)Daten verwenden Vokabulare, die den FAIR-Grundsätzen folgen <br>**I3.** (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten|
 | **Reusable (Wiederverwendbar)**  | **R1.** (Meta-)Daten sind mit einer Vielzahl von genauen und relevanten Attributen reichhaltig beschrieben <br>**R1.1.** (Meta-)Daten werden mit einer klaren und zugänglichen Datennutzungslizenz freigegeben <br>**R1.2.** (Meta-)Daten sind mit einer detaillierten Dokumentation über Herkunft, Entstehungsprozess und sämtliche Änderungen verbunden<br>**R1.3.** (Meta-)Daten entsprechen den für den Bereich relevanten Gemeinschaftsstandards|
 
-### Unterschied zwischen Open Data und F.A.I.R. Data
+## Beispiel für Anwendung der F.A.I.R.-Prinzipien 
+
+### Findable (Auffindbar)
+Ein Forscher sucht nach historischen Klimadaten für Europa, um die Auswirkungen des Klimawandels zu analysieren. Dank der umfangreichen Metadaten und der eindeutigen Kennungen sind die Daten leicht in einer öffentlich zugänglichen Datenbank zu finden. Diese Auffindbarkeit ermöglicht es, die benötigten Informationen schnell und präzise zu lokalisieren.
+
+### Accessible (Zugänglich)
+Nachdem der Forscher die Klimadaten gefunden hat, kann er sie über ein standardisiertes Protokoll direkt herunterladen. Auch wenn einige Daten authentifiziert werden müssen, sind die Metadaten jederzeit zugänglich, selbst wenn die eigentlichen Daten vorübergehend nicht verfügbar sind.
+
+### Interoperable (Interoperabel)
+Die Klimadaten sind so strukturiert, dass sie mit anderen geowissenschaftlichen Daten wie Luftqualitäts- oder Niederschlagsdaten kombiniert werden können. Dies wird durch die Verwendung gemeinsamer und zugänglicher Vokabulare sowie standardisierter Datenformate erreicht.
+
+### Reusable (Wiederverwendbar)
+Die Klimadaten sind mit klaren Lizenzinformationen und umfassenden Dokumentationen versehen. Dadurch ist sichergestellt, dass der Forscher die Daten für zukünftige Analysen verwenden und mit anderen teilen kann, ohne gegen Nutzungsbedingungen zu verstoßen.
+
+
+## Unterschied zwischen Open Data und F.A.I.R. Data
 
 - Open Data kann von jedem, überall und für jede Art von Nutzung frei verwendet, weitergegeben und weiterentwickelt werden.
 - F.A.I.R.-Prinzipien bieten bewährte Praktiken für das Teilen von Daten unter Berücksichtigung ethischer, rechtlicher oder vertraglicher Beschränkungen. Bei Daten, die persönliche Informationen oder Urheberrechte enthalten, müssen die entsprechenden Vorschriften eingehalten werden. Selbst wenn die Daten nicht offen geteilt werden können, sollte eine Beschreibung veröffentlicht werden, um interessierten Forschenden die Anforderung einer Nutzungserlaubnis zu ermöglichen.
@@ -104,6 +119,7 @@ Ein standardisiertes Datenmodell für Trainingsdaten in einer webbasierten räum
 
 ## Schlussfolgerung
 Die F.A.I.R.-Prinzipien sind ein wesentlicher Bestandteil des wissenschaftlichen Fortschritts, da sie die Nutzung und den Austausch von Daten und Modellen optimieren. Die Implementierung dieser Prinzipien kann zur effizienteren und kollaborativen Nutzung wissenschaftlicher Ressourcen beitragen.
+Zusammengefasst stellen die F.A.I.R.-Prinzipien sicher, dass Daten nicht nur für aktuelle Forschungsfragen, sondern auch für zukünftige Generationen von Forschenden verfügbar und verständlich bleiben.
 
 ## Quellen
 - [Zitat Bollacker](https://www.americanscientist.org/article/beautiful-data)

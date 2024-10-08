@@ -1,4 +1,5 @@
 # Deep Learning as a sub  discipline of Machine Learning
+AutorInnen: Nils Weyrauch (@nilswey) und Julia Ilchmann (@JuliZ3)
 
 ## Definitionen
 

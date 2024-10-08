@@ -45,7 +45,7 @@
 **Key words:** standardization, structure, queryable, accessability, interoperability, customizable, flexible, extensible, persistent, reliable, approachable
 
 ### Why is STAC relevant?
-- STAC makes geospatial data searchable and queryable based on a standard, unified language
+- STAC makes spatiotemporal data searchable and queryable based on a standard, unified language
 - Data is often provided similar but not as much the same as they can be found by users in one search
     - STAC solves this Problem by providing common metadata for spatiotemporal Data
     - It decreases the writing of code for new releasings by exposing existing data as SpatioTemporal Asset Catalogs

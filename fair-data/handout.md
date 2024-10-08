@@ -112,8 +112,6 @@ Die F.A.I.R.-Prinzipien sind ein wesentlicher Bestandteil des wissenschaftlichen
 - [YouTube: How to be F.A.I.R. with your Data](https://youtu.be/5OeCrQE3HhE?si=LC3114uYoc94_M8-)
 - Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016). The FAIR guiding principles for scientific data management and stewardship. *Scientific Data*, *3*, 160018. https://doi.org/10.1038/sdata.2016.18
 - Engelhardt, C. (2022). How to be FAIR with your data. https://doi.org/10.17875/gup2022-1915
-- Dimitrovski, I., Kitanovski, I., Kocev, D., & Simidjievski, N. (2023). Current trends in deep learning for Earth Observation: An open-source benchmark arena for image classification. ISPRS Journal of Photogrammetry and Remote Sensing, 197, 18-35. https://doi.org/10.1016/j.isprsjprs.2023.01.014
-
-- Open Science und Big Data: [DLR Publication](https://elib.dlr.de/191309/1/191309_HR.pdf)
-- F.A.I.R.-Ressourcen für AI/EO: [ScienceDirect Article](https://www.sciencedirect.com/science/article/pii/S0924271623000205)
-- Datenmodell für DL-Trainingsdaten in EO: [Taylor & Francis Online](https://www.tandfonline.com/doi/full/10.1080/13658816.2022.2087223#abstract)
+- Dimitrovski, I., Kitanovski, I., Kocev, D., & Simidjievski, N. (2023). Current trends in deep learning for Earth Observation: An open-source benchmark arena for image classification. *ISPRS Journal of Photogrammetry and Remote Sensing*, *197*, 18-35. https://doi.org/10.1016/j.isprsjprs.2023.01.014
+- Persello, C., Wegner, J. D., Hänsch, R., Tuia, D., Ghamisi, P., & Koeva, M. (2022). Deep learning and Earth observation to support the sustainable development goals: Current approaches, open challenges, and future opportunities. *IEEE Geoscience and Remote Sensing Magazine*, *10(2)*, 172-200. https://doi.org/10.1109/MGRS.2021.3136100
+- Yue, P., Shangguan, B., Hu, L., Jiang, L., Zhang, C., Cao, Z., & Pan, Y. (2022). Towards a training data model for artificial intelligence in earth observation. *International Journal of Geographical Information Science*, *36(11)*, 2113–2137. https://doi.org/10.1080/13658816.2022.2087223

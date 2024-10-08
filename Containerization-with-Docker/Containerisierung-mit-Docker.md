@@ -118,20 +118,8 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
    - Befehl: `docker push benutzername/app-name`
 
 ---
-sollte noch vorgeschoben werden und zu Containerisierung verallgemeinert
-## 7. Wann sollte man Docker NICHT verwenden? 
-- **Komplexe monolithische Anwendungen**:
-  - Wenn die Anwendung auf einem stark spezifischen Setup basiert, das von Containerisierung nicht profitiert.
 
-- **Ressourcenintensive Anwendungen**:
-  - Hochleistungsanwendungen, die eine strikte Kontrolle über CPU und Arbeitsspeicher erfordern, könnten durch den Overhead der Containerisierung nicht profitieren.
-
-- **Altsysteme**:
-  - Ältere Systeme, die schwer zu migrieren sind, eignen sich möglicherweise nicht für Container.
-
----
-
-## 8. Zusammenfassung & Fazit 
+## 7. Zusammenfassung & Fazit 
 
 - **Wichtige Erkenntnisse**:
   - Containerisierung macht Anwendungen portabel, skalierbar und effizient.
@@ -143,8 +131,7 @@ sollte noch vorgeschoben werden und zu Containerisierung verallgemeinert
 
 
 ---
-Wir müssen uns auch noch fragen ausdenken, die wir diskutieren können, falls es aus der Gruppe keine Fragen gibt
-## 9. Quellen
+## 8. Quellen
 
 - [Docker-Dokumentation](https://docs.docker.com/)
 - [Kubernetes und Container-Orchestrierung](https://kubernetes.io/)

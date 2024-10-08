@@ -4,6 +4,7 @@
 
 # **STAC: the SpatioTemporal Asset Catalog**
 
+
 ## Introduction 
 > **"The STAC Specification is a common language to describe geospatial information, so it can more easily be worked with, indexed, and discovered."** [^1]
 
@@ -18,11 +19,12 @@
 
 - Based on JSON files
 - Origin: scenes of satellite imagery
-- Presence: variety of (spatiotemporal) uses, e.g. Point Clouds or Data Cubes
+- Presence: variety of (spatiotemporal) uses, e.g. point clouds or data cubes
+
 
 ## Overview
 - Concept and implementation of common metadata for spatiotemporal assets
-- Useful for Data providers, Developers and Data users
+- Useful for data providers, developers and data users
 - Components/ Core Specifications:
     - STAC Item - core atomic unit
     - STAC Catalog - JSON file of links 
@@ -36,18 +38,18 @@
     - Full motion video
 
 ### What is STAC?
-- Standard for Spatiotemporal data
+- Standard for spatiotemporal data
 - Common structure for describing and cataloging spatiotemporal assets based on JSON
-- Collection of Specifications and Software
+- Collection of specifications and software
 
 **Key words:** standardization, structure, queryable, accessability, interoperability, customizable, flexible, extensible, persistent, reliable, approachable
 
 ### Why is STAC relevant?
 - STAC makes geospatial data searchable and queryable based on a standard, unified language
-- To decrease the writing of code for new releasings by exposing existing data as SpatioTemporal Asset Catalogs
-    - Existing metadata structures or extensions can be reused or customized
 - Data is often provided similar but not as much the same as they can be found by users in one search
     - STAC solves this Problem by providing common metadata for spatiotemporal Data
+    - It decreases the writing of code for new releasings by exposing existing data as SpatioTemporal Asset Catalogs
+    - Existing metadata structures or extensions can be reused or customized
 - The easy implementable but customizable and flexible standard makes STAC attractive for providers, developers and users
     - Data providers: esasy providing of data because of standardization, simple hosting and many server side tools for better search and security
     - Developers: a given but extendable format and many open source tools and ressources to use for developing
@@ -60,14 +62,13 @@
 - Consists of four core component specifications wich are semi-independent: can be used alone but work best in concert with one another
 
 ### Core components
+
 **STAC Item**
 
 The Item is the fundamental and core atomic unit of STAC. Being a GeoJSON feature it can be read by GIS or geospatial librarys. It can describe one or more spatiotemporal asset(s) like all bands (assets) of one imagery scene in one item. An item has fields which consist of the existing GeoJSON fields such as id, type, geometry, bbox and properties and additional STAC Item fields which are partially optional. These Fields are e.g. the stac_version, links, assets, stac_extensions or collections. 
 A list of item fields is provided on [GitHub item-spec](https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md).
 
-
 <img width="500" alt="items" src="https://github.com/user-attachments/assets/34514af4-8488-4bb0-9167-c7eee5553ca4">
-
 
 **STAC Catalog**
 
@@ -76,13 +77,11 @@ A STAC Catalog can link various STAC Items together. A catalog contains a list o
 <img width="400" alt="catalogs" src="https://github.com/user-attachments/assets/a2a7ced6-e637-4d3d-8374-e6dc3e8e3d97">
 <img width="300" alt="collections" src="https://github.com/user-attachments/assets/97e97c9b-a474-489b-93dd-7a934857450a">
 
-
 **STAC Collection**
 
 Within a collection of geospatial data there can be common additional information regarding to these kinds of data. It consists of assets with the same properties on a higher level. A STAC Collection includes additional fields for this additional information. As a standalone it is a lightweight way to describe data holdings.
 
 <img width="600" alt="collections" src="https://github.com/user-attachments/assets/764d7d8a-3f83-4372-9946-f330b0f9eb88">
-
 
 **(STAC API)**
 
@@ -151,7 +150,6 @@ The eo Extension refers to EO data which are snapshots of the earth for a single
                 "full_width_half_max": 0.02
             },
 </details>
-
 
 ### mlm: Machine Learning Model Extension
 

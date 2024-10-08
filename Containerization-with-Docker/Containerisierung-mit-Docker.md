@@ -36,17 +36,18 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
 
 ---
 
-## 4. Wann sollte man Containerisierung einsetzen? 
+## 4. Wann sollte man Containerisierung einsetzen (oder nicht)?
 
-- **Anwendungsfälle**:
-  - **Microservices**: Aufteilen von Anwendungen in kleinere Dienste, die unabhängig bereitgestellt und skaliert werden können.
-  - **CI/CD-Pipelines**: Container ermöglichen es CI/CD-Pipelines, nahtlos in verschiedenen Phasen zu funktionieren.
-  - **Entwicklungsumgebungen**: Containerisierte Entwicklungsumgebungen verringern die Reibung zwischen Entwicklung und Produktion.
+- **Geeignete Anwendungsfälle**:
+  - **Microservices**: Aufteilen großer Anwendungen in unabhängige Dienste.
+  - **CI/CD-Pipelines**: Automatisierte Tests und Deployments in verschiedenen Umgebungen.
+  - **Entwicklungsumgebungen**: Einheitliche Entwicklungs- und Produktionsumgebungen schaffen.
 
-- **Wann man Containerisierung NICHT verwenden sollte**:
-  - Anwendungen, die eine sehr enge Hardware-Kopplung benötigen oder nicht-containerisierte Abhängigkeiten erfordern.
+- **Wann Containerisierung weniger sinnvoll ist**:
+  - **Komplexe monolithische Anwendungen**: Wenn spezifische Hardware oder Umgebungskonfigurationen notwendig sind.
+  - **Ressourcenintensive Anwendungen**: Anwendungen, die strikte Kontrolle über CPU und RAM benötigen, könnten von Containerisierung beeinträchtigt werden.
+  - **Altsysteme**: Ältere Systeme, die schwer in Container zu migrieren sind.
 
----
 
 ## 5. Einführung in Docker 
 

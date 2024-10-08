@@ -203,7 +203,7 @@ The mlm-extension provides fields to describe ML models, their training details 
     - Improves providing, developing and using in the field of spatiotemporal data
     - Enables increased accessibility and interoperability
     - Many examples and use cases are already covered by extensions
-    - The core is simple and the concept is flexible and 
+    - The core is simple and the concept is flexible and customizable
 - Difficulties/Discussion:
     - Much work to make all data STAC compliant -> how to get the community bigger, how far can it grow with voluntary work and the OS base?
     - Spatiotemporal data is only one special type of data -> how to expand to more disciplines? Is it even compatible?

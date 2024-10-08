@@ -40,11 +40,9 @@ Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden 2
 
 ## Warum sollte man Daten F.A.I.R. machen?
 - Sicherung von Integrität und Reproduzierbarkeit in der Forschung.
-- Gültig als Goldstandard für Forschungsdatenmanagement (RDM).
-- Erleichterung des Zugangs, der Auffindbarkeit und der Wiederverwendung von Daten, was deren Wert erhöht.
+- Gültig als Standard für Forschungsdatenmanagement (RDM).
 - Förderung der Datenintegration innerhalb und zwischen Disziplinen zur Unterstützung globaler Herausforderungen.
-- Viele Förderer (z. B. UN, WHO) haben die Prinzipien in ihre Richtlinien aufgenommen, was die Verpflichtungen der Forscher erhöht.
-- Steigerung des öffentlichen Vertrauens in öffentlich finanzierte Forschung.
+- Viele Förderer (z. B. UN, WHO) haben die Prinzipien in ihre Richtlinien aufgenommen.
 - Unterstützung durch ergänzende ethische Richtlinien wie die CARE- und TRUST-Prinzipien.
 
 ## Bedeutung der F.A.I.R.-Prinzipien allgemein
@@ -60,7 +58,7 @@ Die F.A.I.R.-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden 2
 - **Compliance**: Viele Förderorganisationen und wissenschaftliche Zeitschriften verlangen die Einhaltung der F.A.I.R.-Prinzipien.
 
 ## Wie macht man Daten F.A.I.R.?
-Das **Drei-Punkte-Rahmenwerk** formuliert die wesentlichen Schritte auf dem Weg zu einem globalen Internet aus F.A.I.R.-Daten und -Diensten. Hierdurch sollen Daten auffindbar, zugänglich, interoperabel und wiederverwendbar gemacht werden.
+Das **Drei-Punkte-Framework** formuliert die wesentlichen Schritte auf dem Weg zu einem globalen Internet aus F.A.I.R.-Daten und -Diensten. Hierdurch sollen Daten auffindbar, zugänglich, interoperabel und wiederverwendbar gemacht werden.
 
 ### Das Drei-Punkte FAIRification Framework
 Dieses Framework bietet Stakeholdern praktische Anleitungen, wie sie F.A.I.R. werden können. Das Framework maximiert die Wiederverwendung vorhandener Ressourcen, erhöht die Interoperabilität und fördert die schnelle Annäherung an Standards und Technologien für F.A.I.R.-Daten und -Dienste.
@@ -98,7 +96,7 @@ Ein standardisiertes Datenmodell für Trainingsdaten in einer webbasierten räum
 
 ### Ziele der F.A.I.R.-Prinzipien für DL-Modelle in EO:
 - Systematische Dokumentation und Bereitstellung in durchsuchbaren Repositorien
-- Einhaltung von Standards für Metadaten, Lizenzen und Provenienz
+- Einhaltung von Standards für Metadaten, Lizenzen und Dokumentation von Herkunft, Entstehungsprozess und sämtliche Änderungen 
 - Förderung nachhaltiger Nutzung und wissenschaftlicher Zusammenarbeit
 
 ## Schlussfolgerung

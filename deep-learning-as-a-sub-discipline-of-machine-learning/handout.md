@@ -1,8 +1,32 @@
 # Deep Learning as a sub  discipline of Machine Learning
 
-## Inhaltsverzeichnis
+## Definitionen
+
+**Künstliche Intelligenz:** Nachahmung intelligenter Verhaltensweisen von Menschen
+
+**Machine Learning:** 
+- Fähigkeit zu „lernen“ ohne speziell dafür programmiert zu sein
+- Informationsextrahierung aus Daten, die für Menschen unersichtlich sind
+- Basiert auf Mustererkennung
+- Unterschiedliche Algorithmen und Methoden nach Aufgabenstellung
+
+**Zwei Bereiche:**
+1. Supervised Learning (Decision Trees, Support Vector Machines)
+2. Unsupervised Learning (k-means, Principal component analysis)
 
 
+**Deep Learning:** 
+- Subklasse von Machine Learning, Aufbau aus neuronalem Netzwerk mit mind. 3 Layern 
+- Deep Learning vereinfach komplexe Aufgaben in mehrere simplere Schritte
+- Grundgedanke: Entscheidung auf Basis von Wahrscheinlichkeit
+
+## neuronale Netze
+
+- ähnelt der Funktionseise eines menschlichen Gehirns
+- besthen aus Knoten und Verbindungen in Schichten
+- jeder Knoten ist mit anderen Knoten verbunden und besitzt eine Gewichtung und Schwellenwert
+- Knoten werden aktiviert auf Basis ihrer Inputs
+- wenn die Summe der gewichteten Inputs > Grenzwert  = „Aktivierung“ und Informationsweiterleitung
 
 
 ## Gemeinsamkeiten und Unterschiede von Machine Learning und Deep Learning
@@ -18,11 +42,10 @@
 
 | **Merkmal**                             | **Machine Learning**                                           | **Deep Learning**                                          |
 |-----------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------|
-| **Technologiegeschichte**               | Ältere und einfachere Technologie.                                 | Neuerer Ansatz, komplexer als ML.                              |
 | **Funktionsweise**                      | Algorithmus wird durch menschliches Feedback angepasst. Arbeitet mit einfachen Algorithmen.              | Maschine trifft eigene Entscheidungen, erstellt Prognosen und hinterfragt Entscheidungen.  Verwendet mehrschichtige neuronale Netze, die dem menschlichen Gehirn nachempfunden sind. |
 | **Datenanforderungen**                  | Benötigt strukturierte Daten auf einer überschaubaren Datenbasis.   | Benötigt unstrukturierte Daten und sehr große Datenmengen (über 100 Millionen Datenpunkte). |
 | **Einsatzgebiete**                      | Gut geeignet für einfachere, strukturierte Aufgaben.               | Besonders geeignet für komplexe Aufgaben, bei denen nicht alle Aspekte im Vorfeld kategorisiert werden können. |
-| **Eigenschaftserkennung**                  | Merkmale und Kategorisierungen müssen durch Menschen vorgegeben werden. | System findet selbst geeignete Unterscheidungsmerkmale ohne menschliche Vorgaben. |
+| **Eigenschaftserkennung**               | Merkmale und Kategorisierungen müssen durch Menschen vorgegeben werden. | System findet selbst geeignete Unterscheidungsmerkmale ohne menschliche Vorgaben. |
 | **Lernprozess**                         | Lernen basiert auf menschlichem Feedback und expliziten Vorgaben.  | Maschine lernt kontinuierlich und verbessert sich ohne menschliches Eingreifen. |
 | **Ressourcenanforderungen**             | Weniger IT-Ressourcen nötig, einfacher und kostengünstiger zu implementieren. | Benötigt erheblich mehr IT-Ressourcen und ist kostenintensiver zu realisieren. |
 | **Entscheidungsfindung**                | Entscheidungen basieren auf statischen, vorgegebenen Regeln.       | Kontinuierliches Hinterfragen der Entscheidungen verbessert die Gewichtung der Informationsverknüpfungen. |
@@ -46,32 +69,23 @@
     - Deep-Learning-Modelle analysieren Audioaufnahmen, um die Sprachmuster zu erkennen, z.B. Tonhöhe, Tonfall und Akzent. 
     - Dies wird in Anwendungen wie Sprachsteuerung, Echtzeit-Transkription und in personalisierten Kundenerlebnissen eingesetzt. Eine bedeutende Anwendung ist die automatische Untertitelung, die die Barrierefreiheit erhöht.
 
-  - **Natural Language Processing (NLP):** 
-    - Diese Modelle sind in der Lage, Textdaten zu verarbeiten und zu verstehen, um Aufgaben wie Textklassifizierung, Dokumentzusammenfassung und Frage-Antwort-Systeme zu bewältigen. Virtuelle Assistenten und Chatbots, die mit NLP-Modellen ausgestattet sind, können menschliche Sprache interpretieren, verstehen und darauf reagieren. 
-    - Sie werden in Kundenservice, medizinischer Beratung und als Wissensdatenbanken eingesetzt.
-
 - **Sprachassistenten:**
      - Sprachassistenten wie Siri, Alexa oder Google Assistant basieren auf fortgeschrittenen DL-Techniken, die Spracherkennung, NLP und Sprachsynthese integrieren. Diese Assistenten nutzen große Datensätze und kontinuierliches Training, um Nutzeranfragen zu verstehen und angemessen zu reagieren. 
      - Die Assistenten können vielfältige Aufgaben übernehmen, von der Steuerung von Smart-Home-Geräten über das Versenden von Nachrichten bis hin zu komplexeren Aufgaben wie dem Erstellen von Berichten und dem Durchführen von Recherchen.
     
-
-- **Krankheitserkennung mittels Bildauswertung:**
-    - DL-Modelle sind oft genauer als menschliche Experten, da sie Millionen von Bildern analysieren und lernen, feinste Unterschiede zu erkennen, die das menschliche Auge übersehen könnte. 
-    - Deep Learning kann Röntgenbilder oder CT-Aufnahmen auf Anomalien, wie Tumore, Frakturen oder andere Krankheitsmerkmale untersuchen.
-  
-
 - **Wettervorhersagen:**
   - Deep-Learning-Modelle verarbeiten riesige Mengen an Daten aus Satellitenbildern, Wetterstationen und historischen Wetterdaten und lernen dabei Muster und Zusammenhänge in den atmosphärischen Bedingungen.
   - Durch die Analyse dieser Daten mit DL-Methoden können präzisere Wettervorhersagen getroffen werden, die sowohl kurzfristige als auch langfristige Wettertrends vorhersagen können. Dies wird besonders wichtig in Bereichen wie Katastrophenmanagement (z.B. Vorhersage von Hurrikanen) und Landwirtschaft, wo genaue Wettervorhersagen für die Planung und Sicherheit entscheidend sind.
 
-- **IT-Sicherheit:**
-  - Deep Learning verbessert die Cybersicherheit, indem nicht nur bekannte Gefahren, sondern auch neue, unbekannte Anomalien erkannt werden. Durch kontinuierliches Lernen und die Analyse großer Datenströme ist es möglich, potenziell gefährliche Aktivitäten schneller und genauer zu identifizieren.
-  - Das macht Sicherheitslösungen, die auf Deep Learning basieren, effizienter und leistungsstärker im Kampf gegen fortschrittliche Bedrohungen.
-
 
 # Literaturquellen
 
-- Was ist Deep Learning? - RedHat: https://www.redhat.com/de/topics/ai/what-is-deep-learning (abgerufen am: 07.10.2024)
-- Was ist Deep Learning? - Weissenberg: https://weissenberg-group.de/was-ist-deep-learning/ (abgerufen am: 07.10.2024)
-- Deep Learning vs. Machine Learning - was sind die Unterschiede - Ionos: https://www.ionos.de/digitalguide/online-marketing/suchmaschinenmarketing/deep-learning-vs-machine-learning/ (abgerufen am: 07.10.2024)
-- Was sind neuronale Netzwerke? - IBM: https://www.ibm.com/de-de/topics/neural-networks (abgerufen am: 07.10.2024)
+- Bengio, Y., Goodfellow, I., & Courville, A. (2017). Deep learning (Vol. 1). Cambridge, MA, USA: MIT press.
+- Bitkom e. V. und Deutsches Forschungszentrum für künstliche Intelligenz. Künstliche Intelligenz Wirtschaftliche Bedeutung, gesellschaftliche Herausforderungen, menschliche Verantwortung (2017)
+- IBM: Was sind neuronale Netzwerke?, https://www.ibm.com/de-de/topics/neural-networks (07.10.2024)
+- Ionos: Deep Learning vs. Machine Learning - was sind die Unterschiede, https://www.ionos.de/digitalguide/online-marketing/suchmaschinenmarketing/deep-learning-vs-machine-learning/ (07.10.2024)
+- Mahesh, B. (2020). Machine learning algorithms-a review. International Journal of Science and Research (IJSR).[Internet], 9(1), 381-386.
+- Nielsen, M. A. (2015). Neural networks and deep learning (Vol. 25, pp. 15-24). San Francisco, CA, USA: Determination press.
+- RedHat: Was ist Deep Learning?, https://www.redhat.com/de/topics/ai/what-is-deep-learning (07.10.2024)
+- The MathWorks, Inc.: Deep Learning, https://de.mathworks.com/discovery/deep-learning.html (08.10.2024)
+- Weissenberg: Was ist Deep Learning?, https://weissenberg-group.de/was-ist-deep-learning/ (07.10.2024)

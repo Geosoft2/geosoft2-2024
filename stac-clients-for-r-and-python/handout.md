@@ -91,5 +91,5 @@ for item in items:
 ### How to create your own STAC with pystac
 
 ```python
-tetstetsgcuzhasbuhnfci
+tetstetsgcuzhasbuhnfcihh
 ```

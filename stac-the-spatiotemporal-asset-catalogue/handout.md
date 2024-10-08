@@ -69,7 +69,7 @@ The Item is the fundamental and core atomic unit of STAC. Being a GeoJSON featur
 A list of item fields can be found in the [GitHub item-specification](https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md).
 
 <details>
-<summary>Json-schema:</summary>
+<summary>JSON schema:</summary>
 
 **Code extract of the item specification [^4]:**
 
@@ -183,7 +183,7 @@ A STAC Catalog can link various STAC items together. A catalog contains a list o
 A list of item fields can be found in the [GitHub catalog-specification](https://github.com/radiantearth/stac-api-spec/blob/release/v1.0.0/stac-spec/catalog-spec/catalog-spec.md#catalog-fields).
 
 <details>
-<summary>Json-schema:</summary>
+<summary>JSON schema:</summary>
 
 **The catalog specification [^6]:**
 
@@ -272,7 +272,7 @@ Within a collection of geospatial data there can be common additional informatio
 A list of item fields can be found in the [GitHub collection-specification](https://github.com/radiantearth/stac-api-spec/blob/release/v1.0.0/stac-spec/collection-spec/collection-spec.md#collection-fields).
 
 <details>
-<summary>Json-schema:</summary>
+<summary>JSON schema:</summary>
 
  **Code extract of the collection specification [^8]:**
 

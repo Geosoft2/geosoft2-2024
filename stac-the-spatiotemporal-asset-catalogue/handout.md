@@ -47,25 +47,25 @@
 ### Why is STAC relevant?
 - STAC makes spatiotemporal data searchable and queryable based on a standard, unified language
 - Data is often provided similar but not as much the same as they can be found by users in one search
-    - STAC solves this Problem by providing common metadata for spatiotemporal Data
+    - STAC solves this problem by providing common metadata for spatiotemporal Data
     - It reduces the amount of code required for new releases by exposing existing data in STAC standard
     - Existing metadata structures or extensions can be reused or customized
-- The easy implementable but customizable and flexible standard makes STAC attractive for providers, developers and users
-    - Data providers: esasy providing of data because of standardization, simple hosting and many server side tools for better search and security
-    - Developers: a given but extendable format and many open source tools and ressources to use for developing
+- The easy implementable but customizable and flexible standard makes STAC attractive for providers, developers and users:
+    - Data providers: easy providing of data because of standardization, simple hosting and many server side tools for better search and security
+    - Developers: an prescribed but extendable format and many open source tools and ressources to use for developing
     - Data users: its no more necessary to write own code or search for data in various platforms
 
 ### How does STAC work?
 
 - Brings the metadata in a standardized structure to make it queryable and searchable
-- Network of JSON-Files referencing other JSON-files (linked to each other)
+- Network of JSON files referencing other JSON files (linked to each other)
 - Consists of four core component specifications wich are semi-independent: can be used alone but work best in concert with one another
 
 ### Core components
 
 **STAC Item**
 
-The Item is the fundamental and core atomic unit of STAC. Being a GeoJSON feature it can be read by GIS or geospatial librarys. It can describe one or more spatiotemporal asset(s) like all bands (assets) of one imagery scene in one item. An item has fields which consist of the existing GeoJSON fields such as id, type, geometry, bbox and properties and additional STAC Item fields which are partially optional. These Fields are e.g. the stac_version, links, assets, stac_extensions or collections. 
+The Item is the fundamental and core atomic unit of STAC. Being a GeoJSON feature it can be read by GIS or geospatial librarys. It can describe one or more spatiotemporal asset(s) like all bands (assets) of one imagery scene in one item. An item has fields which consist of the existing GeoJSON fields such as id, type, geometry, bbox and properties and additional STAC item fields which are partially optional. These fields are e.g. the stac_version, links, assets, stac_extensions or collections. 
 A list of item fields can be found in the [GitHub item-specification](https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md).
 
 <details>
@@ -179,7 +179,7 @@ A list of item fields can be found in the [GitHub item-specification](https://gi
 
 **STAC Catalog**
 
-A STAC Catalog can link various STAC Items together. A catalog contains a list of STAC Items and of child STAC Catalogs. A catalog can be linked with Items, Collections and other catalogs. 
+A STAC Catalog can link various STAC Items together. A catalog contains a list of STAC Items and of child STAC Catalogs. A catalog can be linked with items, collections and other catalogs. 
 A list of item fields can be found in the [GitHub catalog-specification](https://github.com/radiantearth/stac-api-spec/blob/release/v1.0.0/stac-spec/catalog-spec/catalog-spec.md#catalog-fields).
 
 <details>
@@ -400,14 +400,14 @@ A list of item fields can be found in the [GitHub collection-specification](http
 
 **(STAC API)**
 
-A STAC API is a service interface for search and differs from the other specifications because it is not only a JSON file but more a dynamic system with various parts. It has access over a group of STAC objects, which are usually held in a database.
+A STAC API is a service interface for search which differs from the other specifications because it is not only a JSON file but more a dynamic system with various parts. It has access to a group of STAC objects, which are usually stored in a database.
 
 <img width="800" alt="archive_infra" src="https://github.com/user-attachments/assets/8aede27e-2b22-44ca-82f9-fd60fbed61e1">
 
 
 ## STAC Extensions
 - To add specific metadata in different use cases or more detail about specific data types
-- Many extensions are hosted in GitHub
+- Many extensions are hosted on GitHub
 - Basic JSON-schema includes properties and definitions for (objects of the) extensions such as types or items
 
 <details>

@@ -1,7 +1,8 @@
 # Containerization with Docker
 
 ## 1. Introduction 
-...
+
+Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](https://github.com/ReinerMx)
  ---
 
 ## 2. What is Containerization? 

@@ -1,11 +1,8 @@
 # Containerisierung mit Docker
 Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](https://github.com/ReinerMx)
 
-## 1. Einleitung 
-- **Verständnis von Containerisierung (Theorie)**: Was, warum, wann?
-- **Praxis**: Docker zur Containerisierung nutzen.
 
-## 2. Was ist Containerisierung? 
+## 1. Was ist Containerisierung? 
 
 - **Definition**: 
   - Containerisierung ist eine leichte Form der Virtualisierung, bei der eine Anwendung und ihre Abhängigkeiten in einen Container gepackt werden.
@@ -20,7 +17,7 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
 
 ---
 
-## 3. Warum ist Containerisierung wichtig? 
+## 2. Warum ist Containerisierung wichtig? 
 
 - **Konsistenz zwischen Umgebungen**: 
   - Container stellen sicher, dass dieselbe Anwendung in Entwicklungs-, Test- und Produktionsumgebungen ohne das Problem "Es funktioniert auf meinem Rechner" läuft.
@@ -36,7 +33,7 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
 
 ---
 
-## 4. Wann sollte man Containerisierung einsetzen (oder nicht)?
+## 3. Wann sollte man Containerisierung einsetzen (oder nicht)?
 
 - **Geeignete Anwendungsfälle**:
   - **Microservices**: Aufteilen großer Anwendungen in unabhängige Dienste.
@@ -49,7 +46,7 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
   - **Altsysteme**: Ältere Systeme, die schwer in Container zu migrieren sind.
 
 
-## 5. Einführung in Docker 
+## 4. Einführung in Docker 
 
 - **Was ist Docker?**:
   - Docker ist eine Open-Source-Plattform, die die Bereitstellung, Skalierung und Verwaltung von Anwendungen in Containern automatisiert.
@@ -75,7 +72,7 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
  
 ---
 
-## 6. Wie containerisiert man eine Anwendung mit Docker? 
+## 5. Wie containerisiert man eine Anwendung mit Docker? 
 
 ### Schritte zur Containerisierung einer einfachen Anwendung:
 
@@ -119,7 +116,7 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
 
 ---
 
-## 7. Zusammenfassung & Fazit 
+## 6. Zusammenfassung & Fazit 
 
 - **Wichtige Erkenntnisse**:
   - Containerisierung macht Anwendungen portabel, skalierbar und effizient.
@@ -131,7 +128,10 @@ Autoren: [@Lukas Ahlert](https://github.com/LukasAhl) und [@Maximilian Reiner](h
 
 
 ---
-## 8. Quellen
+## 7. Quellen
 
 - [Docker-Dokumentation](https://docs.docker.com/)
+- [Docker-Logos](https://www.docker.com/company/newsroom/media-resources/)
 - [Kubernetes und Container-Orchestrierung](https://kubernetes.io/)
+- [RedHat](https://www.redhat.com/de/topics/cloud-native-apps/what-is-containerization)
+- [OPC Router](https://www.opc-router.de/was-ist-docker/)

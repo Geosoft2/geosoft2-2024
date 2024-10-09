@@ -1,11 +1,8 @@
 # Containerization with Docker
-
-## 1. Introduction 
-
 Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](https://github.com/ReinerMx)
- ---
 
-## 2. What is Containerization? 
+
+## 1. What is Containerization? 
 
 - **Definition**: 
   - Containerization is a lightweight form of virtualization that involves packaging an application and its dependencies into a container.
@@ -20,7 +17,7 @@ Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](h
 
 ---
 
-## 3. Why is Containerization Important? 
+## 2. Why is Containerization Important? 
 
 - **Consistency Across Environments**: 
   - Containers ensure that the same application works in development, testing, and production environments without the "works on my machine" issue.
@@ -36,7 +33,7 @@ Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](h
 
 ---
 
-## 4. When to Use Containerization? 
+## 3. When to Use Containerization? 
 
 - **Use Cases**:
   - **Microservices**: Split applications into smaller services that can be independently deployed and scaled.
@@ -45,10 +42,12 @@ Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](h
 
 - **When NOT to Use Containers**:
   - Applications that need very tight hardware coupling or require non-containerized dependencies.
-
+  - **Complex monolithic applications**: When specific hardware or environment configurations are necessary.
+  - **Resource-intensive applications**: Applications that require strict control over CPU and RAM may be negatively affected by containerization.
+  - **Legacy systems**: Older systems that are difficult to migrate into containers
 ---
 
-## 5. Introduction to Docker 
+## 4. Introduction to Docker 
 
 - **What is Docker?**:
   - Docker is an open-source platform that automates the deployment, scaling, and management of applications inside containers.
@@ -61,10 +60,19 @@ Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](h
 - **How Docker Changed the Game**:
   - Simplified container creation and management.
   - Provided a standard for containerization.
-  
+
+ - **Key terms**:
+   - Dockerfile: <br>
+    - A text file with instructions for creating the Docker image <br>
+    - The "recipe" for the container
+   - Image: <br>
+     - A "blueprint" of a container, built from a Dockerfile <br>
+     - Contains all necessary files and dependencies (operating system, libraries, code, etc.) <br>
+     - Basis for further container starts
+  - Volumes: Persistent storage of data independent of containers
 ---
 
-## 6. How to Containerize an Application Using Docker 
+## 5. How to Containerize an Application Using Docker 
 
 ### Steps to Containerize a Simple Application:
 
@@ -100,28 +108,16 @@ Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](h
 4. **Step 4**: Run the Container  
    - Command: `docker run -p 3000:3000 my-app`
 
-5. **Step 5**: Verify the Application  
-   - Access the application in a browser via `http://localhost:3000`.
+5. **Step 5**: Integrate Volumes to store data persistently  
+   - Example Command for MongoDB: `docker run -v /mein/host/pfad:/data/db --name mongo-container mongo`
 
 6. **Step 6**: Push to Docker Hub (Optional)
    - Command: `docker push username/my-app`
 
----
-
-## 7. When NOT to Use Docker
-
-- **Complex Monolithic Applications**:
-  - If the application relies on a highly specific setup that doesn’t benefit from containerization.
-
-- **Resource-Intensive Applications**:
-  - High-performance applications requiring tight CPU and memory controls might not benefit from the overhead of containerization.
-
-- **Legacy Systems**:
-  - Older systems that are hard to migrate may not be ideal for containers.
 
 ---
 
-## 8. Summary & Conclusion 
+## 6. Summary & Conclusion 
 
 - **Key Takeaways**:
   - Containerization allows applications to be portable, scalable, and efficient.
@@ -135,7 +131,10 @@ Authors: [@Lukas Ahlert](https://github.com/LukasAhl) and [@Maximilian Reiner](h
 
 ---
 
-## 9. Additional Resources 
+## 7. Additional Resources 
 
 - [Docker Documentation](https://docs.docker.com/)
-- [Kubernetes and Container Orchestration](https://kubernetes.io/)
+- [Docker-Logos](https://www.docker.com/company/newsroom/media-resources/)
+- [Kubernetes und Container-Orchestrierung](https://kubernetes.io/)
+- [RedHat](https://www.redhat.com/de/topics/cloud-native-apps/what-is-containerization)
+- [OPC Router](https://www.opc-router.de/was-ist-docker/)

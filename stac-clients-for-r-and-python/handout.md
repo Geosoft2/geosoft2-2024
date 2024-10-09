@@ -1,4 +1,6 @@
 # STAC Clients for R and Python
+by [Mika Dinnus](https://github.com/MikaDinnus) and [Lukas Räuschel](https://github.com/lraeuschel)
+## Content
 [Introduction](#introduction)
 
 [STAC Clients for R](#stac-clients-for-r)
@@ -6,6 +8,8 @@
 [STAC Clients for Python](#stac-clients-for-python)
 
 [Comparison](#comparison-between-rstac-and-pystac)
+
+[Sources](#sources)
 
 ## Introduction
 With R and Python, you can easily explore STACs, which provide access to Earth observation data. In this handout, we'll give a quick introduction on how to query STACs, get their metadata, and download the related datasets using both R and Python.
@@ -28,6 +32,11 @@ To connect to a STAC, save the URL and use the following function:
 stac_url <- "example.url"
 stac_obj <- stac(stac_url)
 ```
+#### Conformance classes:
+Conformance classes define the specific API standards that a STAC server implements. These standards ensure interoperability, meaning that different STAC services and clients can communicate effectively by following the same set of rules. By checking conformance, you can verify which functionalities the STAC API supports.
+```r
+stac_obj %>% conformance() %>% get_request()
+```
 #### Get Metadata about the STAC and the Collections:
 Once connected, you can retrieve information about the STAC service:
 ```r
@@ -48,6 +57,7 @@ query <- stac_search(
 )
 query %>% get_request()
 ```
+In addition to basic search options, you can also filter results by intersections with a geometry or bounding box (bbox), and sort them by specific attributes ( e.g. datetime, id, ground sample distance (gsd), ...).
 #### Asset download:
 To download assets of an item, rstac provides a convenient function:
 ```r
@@ -64,7 +74,10 @@ Now you have donwloaded your data and the files are ready to use.
 Similarly to R, Python provides an extension called pystac to facilitate the use of STACs. The following sections will provide an overview of the functions and a quick start guide.
 
 ### How to get started with pystac
-
+If you have not yet installed pystac on your computer, please do so.  
+```console
+pip install pystac
+```
 
 The first step is to import the pystac library to your project, along with any other libraries you may require to work with Collections, Items and Assets in a straightforward way.
 
@@ -75,8 +88,7 @@ import pystac
 
 from pystac import Catalog, get_stac_version
 from pystac_client import Client
-from pystac.extensions.eo import EOExtension
-from pystac.extensions.label import LabelExtension
+
 ```
 Furthermore some extensions of pystac are added. Their functionality will be explained when they are first used.
 
@@ -115,7 +127,7 @@ print(asset.href)
 >
 > **get_items(*id, recursive=Bool*)** returns all items within a specified catalog. In this context, the "id" parameter can be omitted, as the "recursive" parameter determines whether subcatalogs are traversed.
 >
-> **get_all_items** retrieves all items from given catalog and all subcatalogs
+> **get_all_items()** retrieves all items from given catalog and all subcatalogs
 
 All these functions are used with "[Object].[Function]".
 
@@ -136,12 +148,43 @@ for item in items:
 
 
 ### How to search in a exisiting STAC
+In some cases, it is necessary to narrow down the information you wish to retrieve. In such instances, a search without downloading all data is a logical solution. In pystac, a search can be conducted through the Client Extension.
+```python
+catalog_url = 'example_url'
+client = Client.open(catalog_url)
+
+search = client.search(
+    parameter = value,
+    limit = value
+)
+```
+The search can be refined using existing parameters and their associated values. In some cases, it may be beneficial to limit the data search using the 'limit' parameter.
+> **open(*url*)** works with the client extension and integrates a stac
+>
+> **search(*parameter = value, (..)*)** works with the client extension, searching for a STAC object 
 
 ### How to download data from a STAC
-
-### How to create your own STAC with pystac
+To download data from a STAC, the pystac library's requests extension should be used. This extension interacts with the API, allowing the data to be downloaded to the user's drive.
 
 ```python
-tetstetsgcuzhasbuhnfcihh
+for asset_key in item.assets:
+    asset = item.assets[asset_key]
+    asset_url = asset.href
+    file_name = asset_key + '.' + asset.media_type.split('/')[-1]
+    
+    response = requests.get(asset_url)
+    
+    with open(file_name, 'wb') as f:
+        f.write(response.content)
+    
+    print(f'{file_name} heruntergeladen.')
 ```
+
 ## Comparison between rstac and pystac
+rstac and pystac both allow users to access SpatioTemporal Asset Catalogs (STAC) for geospatial data, but they cater to different programming languages. rstac is tailored for R users, integrating well with R's data analysis and visualization tools like sf and terra. In contrast, pystac is designed for Python users, working seamlessly with Python libraries like requests. Your choice between them depends on whether you prefer R or Python for your data analysis tasks.
+
+
+## Sources
+https://stacspec.org/en/tutorials/
+https://brazil-data-cube.github.io/rstac/
+https://pystac.readthedocs.io/en/stable/

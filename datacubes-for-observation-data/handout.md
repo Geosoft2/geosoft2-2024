@@ -4,7 +4,7 @@ Authors: [@anienabe](https://github.com/anienabe), [fthieman](https://github.com
 A data cube is a multidimensional array of values, typically used to represent data in a structured format for analysis and querying. While the number of dimensions can vary, three dimensions are most common. This is because much of the data we encounter is two-dimensional, such as spreadsheets or images. When you stack hundreds or thousands of these two-dimensional datasets—like satellite images taken over different months—you create a three-dimensional structure, with time serving as the third dimension. This stacked format resembles a cube, hence the name "data cube." 
 
 In a geographic context, the typical dimensions for width and length correspond to the x- and y-coordinates of latitude and longitude. Depending on the use case, the third dimension could be depth (e.g., when working with geologic or oceanographic data), altitude (e.g., when analyzing atmospheric data), or time, which is the leading third dimension in the context of earth observation.  
-![data cubes](https://github.com/fthiemann/geosoft2-2024/blob/main/data_cubes.png)
+![data cubes](https://github.com/anienabe/geosoft2-2024/blob/main/datacubes-for-observation-data/data_cubes.png)
 Architecture of a data cube; Source: Kopp et al.
 
 <br />
@@ -21,7 +21,7 @@ Users can make different kinds of queries:
 
 - Request data from a specific location (e.g., a time series of observations from that area) 
 - Request data from a specific time (e.g., an image from that date).
-![selection data cubes](https://github.com/fthiemann/geosoft2-2024/blob/main/selection_data_cubes.png)
+![selection data cubes](https://github.com/anienabe/geosoft2-2024/blob/main/datacubes-for-observation-data/selection_data_cubes.png)
 
 
 #### Complex analyses 
